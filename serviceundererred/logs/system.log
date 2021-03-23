@@ -1,0 +1,853 @@
+[2021-03-23T07:39:26.026Z] [com.walrus.serviceundererred.ServiceundererredApplication] [main] [14] [INFO ] Starting Server
+[2021-03-23T07:39:27.027Z] [org.springframework.boot.StartupInfoLogger] [main] [55] [INFO ] Starting ServiceundererredApplication using Java 13.0.1 on Shithanshu with PID 19444 (C:\Users\SHITH\Desktop\Project\java\walrus\serviceundererred\target\classes started by SHITH in C:\Users\SHITH\Desktop\Project\java\walrus\serviceundererred)
+[2021-03-23T07:39:27.027Z] [org.springframework.boot.SpringApplication] [main] [662] [INFO ] No active profile set, falling back to default profiles: default
+[2021-03-23T07:39:29.029Z] [org.springframework.boot.web.embedded.tomcat.TomcatWebServer] [main] [108] [INFO ] Tomcat initialized with port(s): 8090 (http)
+[2021-03-23T07:39:29.029Z] [org.apache.juli.logging.DirectJDKLog] [main] [173] [INFO ] Initializing ProtocolHandler ["http-nio-8090"]
+[2021-03-23T07:39:29.029Z] [org.apache.juli.logging.DirectJDKLog] [main] [173] [INFO ] Starting service [Tomcat]
+[2021-03-23T07:39:29.029Z] [org.apache.juli.logging.DirectJDKLog] [main] [173] [INFO ] Starting Servlet engine: [Apache Tomcat/9.0.44]
+[2021-03-23T07:39:29.029Z] [org.apache.juli.logging.DirectJDKLog] [main] [173] [INFO ] Initializing Spring embedded WebApplicationContext
+[2021-03-23T07:39:29.029Z] [org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext] [main] [289] [INFO ] Root WebApplicationContext: initialization completed in 1834 ms
+[2021-03-23T07:39:29.029Z] [org.springframework.scheduling.concurrent.ExecutorConfigurationSupport] [main] [181] [INFO ] Initializing ExecutorService 'clientInboundChannelExecutor'
+[2021-03-23T07:39:29.029Z] [org.springframework.scheduling.concurrent.ExecutorConfigurationSupport] [main] [181] [INFO ] Initializing ExecutorService 'clientOutboundChannelExecutor'
+[2021-03-23T07:39:29.029Z] [org.springframework.scheduling.concurrent.ExecutorConfigurationSupport] [main] [181] [INFO ] Initializing ExecutorService 'messageBrokerTaskScheduler'
+[2021-03-23T07:39:29.029Z] [org.springframework.scheduling.concurrent.ExecutorConfigurationSupport] [main] [181] [INFO ] Initializing ExecutorService 'brokerChannelExecutor'
+[2021-03-23T07:39:29.029Z] [org.springframework.boot.autoconfigure.web.servlet.WelcomePageHandlerMapping] [main] [53] [INFO ] Adding welcome page: class path resource [static/index.html]
+[2021-03-23T07:39:30.030Z] [org.apache.juli.logging.DirectJDKLog] [main] [173] [INFO ] Starting ProtocolHandler ["http-nio-8090"]
+[2021-03-23T07:39:30.030Z] [org.springframework.boot.web.embedded.tomcat.TomcatWebServer] [main] [220] [INFO ] Tomcat started on port(s): 8090 (http) with context path ''
+[2021-03-23T07:39:30.030Z] [org.springframework.core.log.CompositeLog] [main] [137] [INFO ] Starting...
+[2021-03-23T07:39:30.030Z] [org.springframework.core.log.CompositeLog] [main] [137] [INFO ] BrokerAvailabilityEvent[available=true, SimpleBrokerMessageHandler [org.springframework.messaging.simp.broker.DefaultSubscriptionRegistry@37854b34]]
+[2021-03-23T07:39:30.030Z] [org.springframework.core.log.CompositeLog] [main] [137] [INFO ] Started.
+[2021-03-23T07:39:30.030Z] [org.springframework.boot.StartupInfoLogger] [main] [61] [INFO ] Started ServiceundererredApplication in 3.705 seconds (JVM running for 4.348)
+[2021-03-23T07:39:50.050Z] [org.apache.juli.logging.DirectJDKLog] [http-nio-8090-exec-1] [173] [INFO ] Initializing Spring DispatcherServlet 'dispatcherServlet'
+[2021-03-23T07:39:50.050Z] [org.springframework.web.servlet.FrameworkServlet] [http-nio-8090-exec-1] [525] [INFO ] Initializing Servlet 'dispatcherServlet'
+[2021-03-23T07:39:50.050Z] [org.springframework.web.servlet.FrameworkServlet] [http-nio-8090-exec-1] [547] [INFO ] Completed initialization in 1 ms
+[2021-03-23T07:40:00.000Z] [com.walrus.serviceundererred.api.requestResponse] [clientInboundChannel-7] [21] [INFO ] Recieved request to start API Call
+[2021-03-23T07:40:02.002Z] [com.walrus.serviceundererred.api.requestResponse] [clientInboundChannel-10] [21] [INFO ] Recieved request to start API Call
+[2021-03-23T07:40:29.029Z] [org.springframework.web.socket.config.WebSocketMessageBrokerStats] [MessageBroker-5] [126] [INFO ] WebSocketSession[0 current WS(0)-HttpStream(0)-HttpPoll(0), 1 total, 0 closed abnormally (0 connect failure, 0 send limit, 0 transport error)], stompSubProtocol[processed CONNECT(1)-CONNECTED(1)-DISCONNECT(1)], stompBrokerRelay[null], inboundChannel[pool size = 16, active threads = 0, queued tasks = 0, completed tasks = 18], outboundChannel[pool size = 5, active threads = 0, queued tasks = 0, completed tasks = 5], sockJsScheduler[pool size = 8, active threads = 1, queued tasks = 1, completed tasks = 7]
+[2021-03-23T08:10:29.029Z] [org.springframework.web.socket.config.WebSocketMessageBrokerStats] [MessageBroker-7] [126] [INFO ] WebSocketSession[0 current WS(0)-HttpStream(0)-HttpPoll(0), 1 total, 0 closed abnormally (0 connect failure, 0 send limit, 0 transport error)], stompSubProtocol[processed CONNECT(1)-CONNECTED(1)-DISCONNECT(1)], stompBrokerRelay[null], inboundChannel[pool size = 0, active threads = 0, queued tasks = 0, completed tasks = 18], outboundChannel[pool size = 0, active threads = 0, queued tasks = 0, completed tasks = 5], sockJsScheduler[pool size = 8, active threads = 1, queued tasks = 1, completed tasks = 368]
+[2021-03-23T08:16:34.034Z] [com.walrus.serviceundererred.ServiceundererredApplication] [main] [14] [INFO ] Starting Server
+[2021-03-23T08:16:35.035Z] [org.springframework.boot.StartupInfoLogger] [main] [55] [INFO ] Starting ServiceundererredApplication using Java 13.0.1 on Shithanshu with PID 31676 (C:\Users\SHITH\Desktop\Project\java\walrus\serviceundererred\target\classes started by SHITH in C:\Users\SHITH\Desktop\Project\java\walrus\serviceundererred)
+[2021-03-23T08:16:35.035Z] [org.springframework.boot.SpringApplication] [main] [662] [INFO ] No active profile set, falling back to default profiles: default
+[2021-03-23T08:16:37.037Z] [org.springframework.boot.web.embedded.tomcat.TomcatWebServer] [main] [108] [INFO ] Tomcat initialized with port(s): 8090 (http)
+[2021-03-23T08:16:37.037Z] [org.apache.juli.logging.DirectJDKLog] [main] [173] [INFO ] Initializing ProtocolHandler ["http-nio-8090"]
+[2021-03-23T08:16:37.037Z] [org.apache.juli.logging.DirectJDKLog] [main] [173] [INFO ] Starting service [Tomcat]
+[2021-03-23T08:16:37.037Z] [org.apache.juli.logging.DirectJDKLog] [main] [173] [INFO ] Starting Servlet engine: [Apache Tomcat/9.0.44]
+[2021-03-23T08:16:37.037Z] [org.apache.juli.logging.DirectJDKLog] [main] [173] [INFO ] Initializing Spring embedded WebApplicationContext
+[2021-03-23T08:16:37.037Z] [org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext] [main] [289] [INFO ] Root WebApplicationContext: initialization completed in 2151 ms
+[2021-03-23T08:16:38.038Z] [org.springframework.scheduling.concurrent.ExecutorConfigurationSupport] [main] [181] [INFO ] Initializing ExecutorService 'clientInboundChannelExecutor'
+[2021-03-23T08:16:38.038Z] [org.springframework.scheduling.concurrent.ExecutorConfigurationSupport] [main] [181] [INFO ] Initializing ExecutorService 'clientOutboundChannelExecutor'
+[2021-03-23T08:16:38.038Z] [org.springframework.scheduling.concurrent.ExecutorConfigurationSupport] [main] [181] [INFO ] Initializing ExecutorService 'messageBrokerTaskScheduler'
+[2021-03-23T08:16:38.038Z] [org.springframework.scheduling.concurrent.ExecutorConfigurationSupport] [main] [181] [INFO ] Initializing ExecutorService 'brokerChannelExecutor'
+[2021-03-23T08:16:38.038Z] [org.springframework.boot.autoconfigure.web.servlet.WelcomePageHandlerMapping] [main] [53] [INFO ] Adding welcome page: class path resource [static/index.html]
+[2021-03-23T08:16:38.038Z] [org.apache.juli.logging.DirectJDKLog] [main] [173] [INFO ] Starting ProtocolHandler ["http-nio-8090"]
+[2021-03-23T08:16:39.039Z] [org.springframework.boot.web.embedded.tomcat.TomcatWebServer] [main] [220] [INFO ] Tomcat started on port(s): 8090 (http) with context path ''
+[2021-03-23T08:16:39.039Z] [org.springframework.core.log.CompositeLog] [main] [137] [INFO ] Starting...
+[2021-03-23T08:16:39.039Z] [org.springframework.core.log.CompositeLog] [main] [137] [INFO ] BrokerAvailabilityEvent[available=true, SimpleBrokerMessageHandler [org.springframework.messaging.simp.broker.DefaultSubscriptionRegistry@7ff19c33]]
+[2021-03-23T08:16:39.039Z] [org.springframework.core.log.CompositeLog] [main] [137] [INFO ] Started.
+[2021-03-23T08:16:39.039Z] [org.springframework.boot.StartupInfoLogger] [main] [61] [INFO ] Started ServiceundererredApplication in 4.153 seconds (JVM running for 4.96)
+[2021-03-23T08:16:48.048Z] [org.apache.juli.logging.DirectJDKLog] [http-nio-8090-exec-1] [173] [INFO ] Initializing Spring DispatcherServlet 'dispatcherServlet'
+[2021-03-23T08:16:48.048Z] [org.springframework.web.servlet.FrameworkServlet] [http-nio-8090-exec-1] [525] [INFO ] Initializing Servlet 'dispatcherServlet'
+[2021-03-23T08:16:48.048Z] [org.springframework.web.servlet.FrameworkServlet] [http-nio-8090-exec-1] [547] [INFO ] Completed initialization in 1 ms
+[2021-03-23T08:16:51.051Z] [com.walrus.serviceundererred.api.RequestResponse] [clientInboundChannel-7] [20] [INFO ] Recieved request to start API Call
+[2021-03-23T08:16:51.051Z] [com.walrus.serviceundererred.configuartion.BackendAPICall] [clientInboundChannel-7] [50] [WARN ] exceeded retried stopping backoff
+[2021-03-23T08:17:00.000Z] [com.walrus.serviceundererred.api.RequestResponse] [clientInboundChannel-10] [20] [INFO ] Recieved request to start API Call
+[2021-03-23T08:17:00.000Z] [com.walrus.serviceundererred.configuartion.BackendAPICall] [clientInboundChannel-10] [50] [WARN ] exceeded retried stopping backoff
+[2021-03-23T08:19:33.033Z] [com.walrus.serviceundererred.ServiceundererredApplication] [main] [14] [INFO ] Starting Server
+[2021-03-23T08:19:34.034Z] [org.springframework.boot.StartupInfoLogger] [main] [55] [INFO ] Starting ServiceundererredApplication using Java 13.0.1 on Shithanshu with PID 28608 (C:\Users\SHITH\Desktop\Project\java\walrus\serviceundererred\target\classes started by SHITH in C:\Users\SHITH\Desktop\Project\java\walrus\serviceundererred)
+[2021-03-23T08:19:34.034Z] [org.springframework.boot.SpringApplication] [main] [662] [INFO ] No active profile set, falling back to default profiles: default
+[2021-03-23T08:19:47.047Z] [com.walrus.serviceundererred.ServiceundererredApplication] [main] [14] [INFO ] Starting Server
+[2021-03-23T08:19:48.048Z] [org.springframework.boot.StartupInfoLogger] [main] [55] [INFO ] Starting ServiceundererredApplication using Java 13.0.1 on Shithanshu with PID 13872 (C:\Users\SHITH\Desktop\Project\java\walrus\serviceundererred\target\classes started by SHITH in C:\Users\SHITH\Desktop\Project\java\walrus\serviceundererred)
+[2021-03-23T08:19:48.048Z] [org.springframework.boot.SpringApplication] [main] [662] [INFO ] No active profile set, falling back to default profiles: default
+[2021-03-23T08:19:50.050Z] [org.springframework.boot.web.embedded.tomcat.TomcatWebServer] [main] [108] [INFO ] Tomcat initialized with port(s): 8090 (http)
+[2021-03-23T08:19:50.050Z] [org.apache.juli.logging.DirectJDKLog] [main] [173] [INFO ] Initializing ProtocolHandler ["http-nio-8090"]
+[2021-03-23T08:19:50.050Z] [org.apache.juli.logging.DirectJDKLog] [main] [173] [INFO ] Starting service [Tomcat]
+[2021-03-23T08:19:50.050Z] [org.apache.juli.logging.DirectJDKLog] [main] [173] [INFO ] Starting Servlet engine: [Apache Tomcat/9.0.44]
+[2021-03-23T08:19:50.050Z] [org.apache.juli.logging.DirectJDKLog] [main] [173] [INFO ] Initializing Spring embedded WebApplicationContext
+[2021-03-23T08:19:50.050Z] [org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext] [main] [289] [INFO ] Root WebApplicationContext: initialization completed in 1852 ms
+[2021-03-23T08:19:50.050Z] [org.springframework.scheduling.concurrent.ExecutorConfigurationSupport] [main] [181] [INFO ] Initializing ExecutorService 'clientInboundChannelExecutor'
+[2021-03-23T08:19:50.050Z] [org.springframework.scheduling.concurrent.ExecutorConfigurationSupport] [main] [181] [INFO ] Initializing ExecutorService 'clientOutboundChannelExecutor'
+[2021-03-23T08:19:50.050Z] [org.springframework.scheduling.concurrent.ExecutorConfigurationSupport] [main] [181] [INFO ] Initializing ExecutorService 'messageBrokerTaskScheduler'
+[2021-03-23T08:19:50.050Z] [org.springframework.scheduling.concurrent.ExecutorConfigurationSupport] [main] [181] [INFO ] Initializing ExecutorService 'brokerChannelExecutor'
+[2021-03-23T08:19:50.050Z] [org.springframework.boot.autoconfigure.web.servlet.WelcomePageHandlerMapping] [main] [53] [INFO ] Adding welcome page: class path resource [static/index.html]
+[2021-03-23T08:19:51.051Z] [org.apache.juli.logging.DirectJDKLog] [main] [173] [INFO ] Starting ProtocolHandler ["http-nio-8090"]
+[2021-03-23T08:19:51.051Z] [org.springframework.boot.web.embedded.tomcat.TomcatWebServer] [main] [220] [INFO ] Tomcat started on port(s): 8090 (http) with context path ''
+[2021-03-23T08:19:51.051Z] [org.springframework.core.log.CompositeLog] [main] [137] [INFO ] Starting...
+[2021-03-23T08:19:51.051Z] [org.springframework.core.log.CompositeLog] [main] [137] [INFO ] BrokerAvailabilityEvent[available=true, SimpleBrokerMessageHandler [org.springframework.messaging.simp.broker.DefaultSubscriptionRegistry@290e8cab]]
+[2021-03-23T08:19:51.051Z] [org.springframework.core.log.CompositeLog] [main] [137] [INFO ] Started.
+[2021-03-23T08:19:51.051Z] [org.springframework.boot.StartupInfoLogger] [main] [61] [INFO ] Started ServiceundererredApplication in 3.65 seconds (JVM running for 4.303)
+[2021-03-23T08:20:08.008Z] [org.apache.juli.logging.DirectJDKLog] [http-nio-8090-exec-1] [173] [INFO ] Initializing Spring DispatcherServlet 'dispatcherServlet'
+[2021-03-23T08:20:08.008Z] [org.springframework.web.servlet.FrameworkServlet] [http-nio-8090-exec-1] [525] [INFO ] Initializing Servlet 'dispatcherServlet'
+[2021-03-23T08:20:08.008Z] [org.springframework.web.servlet.FrameworkServlet] [http-nio-8090-exec-1] [547] [INFO ] Completed initialization in 1 ms
+[2021-03-23T08:20:12.012Z] [com.walrus.serviceundererred.api.RequestResponse] [clientInboundChannel-7] [20] [INFO ] Recieved request to start API Call
+[2021-03-23T08:20:12.012Z] [com.walrus.serviceundererred.configuartion.BackendAPICall] [clientInboundChannel-7] [37] [INFO ] Retrying
+[2021-03-23T08:20:12.012Z] [org.springframework.messaging.handler.invocation.AbstractMethodMessageHandler] [clientInboundChannel-7] [593] [ERROR] Unhandled exception from message handler method
+java.lang.NullPointerException: null
+	at com.walrus.serviceundererred.configuartion.BackendAPICall.makeAPICall(BackendAPICall.java:38)
+	at com.walrus.serviceundererred.api.RequestResponse.getRequest(RequestResponse.java:26)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:567)
+	at org.springframework.messaging.handler.invocation.InvocableHandlerMethod.doInvoke(InvocableHandlerMethod.java:171)
+	at org.springframework.messaging.handler.invocation.InvocableHandlerMethod.invoke(InvocableHandlerMethod.java:120)
+	at org.springframework.messaging.handler.invocation.AbstractMethodMessageHandler.handleMatch(AbstractMethodMessageHandler.java:565)
+	at org.springframework.messaging.simp.annotation.support.SimpAnnotationMethodMessageHandler.handleMatch(SimpAnnotationMethodMessageHandler.java:511)
+	at org.springframework.messaging.simp.annotation.support.SimpAnnotationMethodMessageHandler.handleMatch(SimpAnnotationMethodMessageHandler.java:94)
+	at org.springframework.messaging.handler.invocation.AbstractMethodMessageHandler.handleMessageInternal(AbstractMethodMessageHandler.java:520)
+	at org.springframework.messaging.handler.invocation.AbstractMethodMessageHandler.handleMessage(AbstractMethodMessageHandler.java:454)
+	at org.springframework.messaging.support.ExecutorSubscribableChannel$SendTask.run(ExecutorSubscribableChannel.java:144)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at java.base/java.lang.Thread.run(Thread.java:830)
+[2021-03-23T08:20:50.050Z] [org.springframework.web.socket.config.WebSocketMessageBrokerStats] [MessageBroker-7] [126] [INFO ] WebSocketSession[1 current WS(1)-HttpStream(0)-HttpPoll(0), 1 total, 0 closed abnormally (0 connect failure, 0 send limit, 0 transport error)], stompSubProtocol[processed CONNECT(1)-CONNECTED(1)-DISCONNECT(0)], stompBrokerRelay[null], inboundChannel[pool size = 9, active threads = 0, queued tasks = 0, completed tasks = 9], outboundChannel[pool size = 1, active threads = 0, queued tasks = 0, completed tasks = 1], sockJsScheduler[pool size = 8, active threads = 1, queued tasks = 2, completed tasks = 10]
+[2021-03-23T08:22:07.007Z] [com.walrus.serviceundererred.ServiceundererredApplication] [main] [14] [INFO ] Starting Server
+[2021-03-23T08:22:07.007Z] [org.springframework.boot.StartupInfoLogger] [main] [55] [INFO ] Starting ServiceundererredApplication using Java 13.0.1 on Shithanshu with PID 30104 (C:\Users\SHITH\Desktop\Project\java\walrus\serviceundererred\target\classes started by SHITH in C:\Users\SHITH\Desktop\Project\java\walrus\serviceundererred)
+[2021-03-23T08:22:07.007Z] [org.springframework.boot.SpringApplication] [main] [662] [INFO ] No active profile set, falling back to default profiles: default
+[2021-03-23T08:22:09.009Z] [org.springframework.boot.web.embedded.tomcat.TomcatWebServer] [main] [108] [INFO ] Tomcat initialized with port(s): 8090 (http)
+[2021-03-23T08:22:09.009Z] [org.apache.juli.logging.DirectJDKLog] [main] [173] [INFO ] Initializing ProtocolHandler ["http-nio-8090"]
+[2021-03-23T08:22:09.009Z] [org.apache.juli.logging.DirectJDKLog] [main] [173] [INFO ] Starting service [Tomcat]
+[2021-03-23T08:22:09.009Z] [org.apache.juli.logging.DirectJDKLog] [main] [173] [INFO ] Starting Servlet engine: [Apache Tomcat/9.0.44]
+[2021-03-23T08:22:09.009Z] [org.apache.juli.logging.DirectJDKLog] [main] [173] [INFO ] Initializing Spring embedded WebApplicationContext
+[2021-03-23T08:22:09.009Z] [org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext] [main] [289] [INFO ] Root WebApplicationContext: initialization completed in 1680 ms
+[2021-03-23T08:22:09.009Z] [org.springframework.scheduling.concurrent.ExecutorConfigurationSupport] [main] [181] [INFO ] Initializing ExecutorService 'clientInboundChannelExecutor'
+[2021-03-23T08:22:09.009Z] [org.springframework.scheduling.concurrent.ExecutorConfigurationSupport] [main] [181] [INFO ] Initializing ExecutorService 'clientOutboundChannelExecutor'
+[2021-03-23T08:22:09.009Z] [org.springframework.scheduling.concurrent.ExecutorConfigurationSupport] [main] [181] [INFO ] Initializing ExecutorService 'brokerChannelExecutor'
+[2021-03-23T08:22:09.009Z] [org.springframework.scheduling.concurrent.ExecutorConfigurationSupport] [main] [181] [INFO ] Initializing ExecutorService 'messageBrokerTaskScheduler'
+[2021-03-23T08:22:10.010Z] [org.springframework.boot.autoconfigure.web.servlet.WelcomePageHandlerMapping] [main] [53] [INFO ] Adding welcome page: class path resource [static/index.html]
+[2021-03-23T08:22:10.010Z] [org.apache.juli.logging.DirectJDKLog] [main] [173] [INFO ] Starting ProtocolHandler ["http-nio-8090"]
+[2021-03-23T08:22:10.010Z] [org.springframework.boot.web.embedded.tomcat.TomcatWebServer] [main] [220] [INFO ] Tomcat started on port(s): 8090 (http) with context path ''
+[2021-03-23T08:22:10.010Z] [org.springframework.core.log.CompositeLog] [main] [137] [INFO ] Starting...
+[2021-03-23T08:22:10.010Z] [org.springframework.core.log.CompositeLog] [main] [137] [INFO ] BrokerAvailabilityEvent[available=true, SimpleBrokerMessageHandler [org.springframework.messaging.simp.broker.DefaultSubscriptionRegistry@6f8aba08]]
+[2021-03-23T08:22:10.010Z] [org.springframework.core.log.CompositeLog] [main] [137] [INFO ] Started.
+[2021-03-23T08:22:10.010Z] [org.springframework.boot.StartupInfoLogger] [main] [61] [INFO ] Started ServiceundererredApplication in 3.405 seconds (JVM running for 4.046)
+[2021-03-23T08:22:15.015Z] [org.apache.juli.logging.DirectJDKLog] [http-nio-8090-exec-1] [173] [INFO ] Initializing Spring DispatcherServlet 'dispatcherServlet'
+[2021-03-23T08:22:15.015Z] [org.springframework.web.servlet.FrameworkServlet] [http-nio-8090-exec-1] [525] [INFO ] Initializing Servlet 'dispatcherServlet'
+[2021-03-23T08:22:15.015Z] [org.springframework.web.servlet.FrameworkServlet] [http-nio-8090-exec-1] [547] [INFO ] Completed initialization in 1 ms
+[2021-03-23T08:22:21.021Z] [com.walrus.serviceundererred.api.RequestResponse] [clientInboundChannel-7] [20] [INFO ] Recieved request to start API Call
+[2021-03-23T08:22:21.021Z] [com.walrus.serviceundererred.configuartion.BackendAPICall] [clientInboundChannel-7] [38] [INFO ] Retrying
+[2021-03-23T08:22:21.021Z] [org.springframework.messaging.handler.invocation.AbstractMethodMessageHandler] [clientInboundChannel-7] [593] [ERROR] Unhandled exception from message handler method
+java.lang.NullPointerException: null
+	at com.walrus.serviceundererred.configuartion.BackendAPICall.makeAPICall(BackendAPICall.java:39)
+	at com.walrus.serviceundererred.api.RequestResponse.getRequest(RequestResponse.java:26)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:567)
+	at org.springframework.messaging.handler.invocation.InvocableHandlerMethod.doInvoke(InvocableHandlerMethod.java:171)
+	at org.springframework.messaging.handler.invocation.InvocableHandlerMethod.invoke(InvocableHandlerMethod.java:120)
+	at org.springframework.messaging.handler.invocation.AbstractMethodMessageHandler.handleMatch(AbstractMethodMessageHandler.java:565)
+	at org.springframework.messaging.simp.annotation.support.SimpAnnotationMethodMessageHandler.handleMatch(SimpAnnotationMethodMessageHandler.java:511)
+	at org.springframework.messaging.simp.annotation.support.SimpAnnotationMethodMessageHandler.handleMatch(SimpAnnotationMethodMessageHandler.java:94)
+	at org.springframework.messaging.handler.invocation.AbstractMethodMessageHandler.handleMessageInternal(AbstractMethodMessageHandler.java:520)
+	at org.springframework.messaging.handler.invocation.AbstractMethodMessageHandler.handleMessage(AbstractMethodMessageHandler.java:454)
+	at org.springframework.messaging.support.ExecutorSubscribableChannel$SendTask.run(ExecutorSubscribableChannel.java:144)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at java.base/java.lang.Thread.run(Thread.java:830)
+[2021-03-23T08:23:09.009Z] [org.springframework.web.socket.config.WebSocketMessageBrokerStats] [MessageBroker-5] [126] [INFO ] WebSocketSession[1 current WS(1)-HttpStream(0)-HttpPoll(0), 1 total, 0 closed abnormally (0 connect failure, 0 send limit, 0 transport error)], stompSubProtocol[processed CONNECT(1)-CONNECTED(1)-DISCONNECT(0)], stompBrokerRelay[null], inboundChannel[pool size = 9, active threads = 0, queued tasks = 0, completed tasks = 9], outboundChannel[pool size = 1, active threads = 0, queued tasks = 0, completed tasks = 1], sockJsScheduler[pool size = 8, active threads = 1, queued tasks = 2, completed tasks = 13]
+[2021-03-23T08:25:45.045Z] [com.walrus.serviceundererred.ServiceundererredApplication] [main] [14] [INFO ] Starting Server
+[2021-03-23T08:25:46.046Z] [org.springframework.boot.StartupInfoLogger] [main] [55] [INFO ] Starting ServiceundererredApplication using Java 13.0.1 on Shithanshu with PID 18392 (C:\Users\SHITH\Desktop\Project\java\walrus\serviceundererred\target\classes started by SHITH in C:\Users\SHITH\Desktop\Project\java\walrus\serviceundererred)
+[2021-03-23T08:25:46.046Z] [org.springframework.boot.SpringApplication] [main] [662] [INFO ] No active profile set, falling back to default profiles: default
+[2021-03-23T08:25:48.048Z] [org.springframework.boot.web.embedded.tomcat.TomcatWebServer] [main] [108] [INFO ] Tomcat initialized with port(s): 8090 (http)
+[2021-03-23T08:25:48.048Z] [org.apache.juli.logging.DirectJDKLog] [main] [173] [INFO ] Initializing ProtocolHandler ["http-nio-8090"]
+[2021-03-23T08:25:48.048Z] [org.apache.juli.logging.DirectJDKLog] [main] [173] [INFO ] Starting service [Tomcat]
+[2021-03-23T08:25:48.048Z] [org.apache.juli.logging.DirectJDKLog] [main] [173] [INFO ] Starting Servlet engine: [Apache Tomcat/9.0.44]
+[2021-03-23T08:25:48.048Z] [org.apache.juli.logging.DirectJDKLog] [main] [173] [INFO ] Initializing Spring embedded WebApplicationContext
+[2021-03-23T08:25:48.048Z] [org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext] [main] [289] [INFO ] Root WebApplicationContext: initialization completed in 1922 ms
+[2021-03-23T08:25:48.048Z] [org.springframework.scheduling.concurrent.ExecutorConfigurationSupport] [main] [181] [INFO ] Initializing ExecutorService 'clientInboundChannelExecutor'
+[2021-03-23T08:25:48.048Z] [org.springframework.scheduling.concurrent.ExecutorConfigurationSupport] [main] [181] [INFO ] Initializing ExecutorService 'clientOutboundChannelExecutor'
+[2021-03-23T08:25:48.048Z] [org.springframework.scheduling.concurrent.ExecutorConfigurationSupport] [main] [181] [INFO ] Initializing ExecutorService 'brokerChannelExecutor'
+[2021-03-23T08:25:48.048Z] [org.springframework.scheduling.concurrent.ExecutorConfigurationSupport] [main] [181] [INFO ] Initializing ExecutorService 'messageBrokerTaskScheduler'
+[2021-03-23T08:25:48.048Z] [org.springframework.boot.autoconfigure.web.servlet.WelcomePageHandlerMapping] [main] [53] [INFO ] Adding welcome page: class path resource [static/index.html]
+[2021-03-23T08:25:49.049Z] [org.apache.juli.logging.DirectJDKLog] [main] [173] [INFO ] Starting ProtocolHandler ["http-nio-8090"]
+[2021-03-23T08:25:49.049Z] [org.springframework.boot.web.embedded.tomcat.TomcatWebServer] [main] [220] [INFO ] Tomcat started on port(s): 8090 (http) with context path ''
+[2021-03-23T08:25:49.049Z] [org.springframework.core.log.CompositeLog] [main] [137] [INFO ] Starting...
+[2021-03-23T08:25:49.049Z] [org.springframework.core.log.CompositeLog] [main] [137] [INFO ] BrokerAvailabilityEvent[available=true, SimpleBrokerMessageHandler [org.springframework.messaging.simp.broker.DefaultSubscriptionRegistry@1115433e]]
+[2021-03-23T08:25:49.049Z] [org.springframework.core.log.CompositeLog] [main] [137] [INFO ] Started.
+[2021-03-23T08:25:49.049Z] [org.springframework.boot.StartupInfoLogger] [main] [61] [INFO ] Started ServiceundererredApplication in 3.828 seconds (JVM running for 4.56)
+[2021-03-23T08:25:54.054Z] [org.apache.juli.logging.DirectJDKLog] [http-nio-8090-exec-1] [173] [INFO ] Initializing Spring DispatcherServlet 'dispatcherServlet'
+[2021-03-23T08:25:54.054Z] [org.springframework.web.servlet.FrameworkServlet] [http-nio-8090-exec-1] [525] [INFO ] Initializing Servlet 'dispatcherServlet'
+[2021-03-23T08:25:54.054Z] [org.springframework.web.servlet.FrameworkServlet] [http-nio-8090-exec-1] [547] [INFO ] Completed initialization in 1 ms
+[2021-03-23T08:25:57.057Z] [com.walrus.serviceundererred.api.RequestResponse] [clientInboundChannel-7] [20] [INFO ] Recieved request to start API Call
+[2021-03-23T08:25:57.057Z] [com.walrus.serviceundererred.configuartion.BackendAPICall] [clientInboundChannel-7] [41] [INFO ] Retrying
+[2021-03-23T08:25:57.057Z] [org.springframework.messaging.handler.invocation.AbstractMethodMessageHandler] [clientInboundChannel-7] [593] [ERROR] Unhandled exception from message handler method
+java.lang.NullPointerException: null
+	at com.walrus.serviceundererred.configuartion.BackendAPICall.makeAPICall(BackendAPICall.java:42)
+	at com.walrus.serviceundererred.api.RequestResponse.getRequest(RequestResponse.java:26)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:567)
+	at org.springframework.messaging.handler.invocation.InvocableHandlerMethod.doInvoke(InvocableHandlerMethod.java:171)
+	at org.springframework.messaging.handler.invocation.InvocableHandlerMethod.invoke(InvocableHandlerMethod.java:120)
+	at org.springframework.messaging.handler.invocation.AbstractMethodMessageHandler.handleMatch(AbstractMethodMessageHandler.java:565)
+	at org.springframework.messaging.simp.annotation.support.SimpAnnotationMethodMessageHandler.handleMatch(SimpAnnotationMethodMessageHandler.java:511)
+	at org.springframework.messaging.simp.annotation.support.SimpAnnotationMethodMessageHandler.handleMatch(SimpAnnotationMethodMessageHandler.java:94)
+	at org.springframework.messaging.handler.invocation.AbstractMethodMessageHandler.handleMessageInternal(AbstractMethodMessageHandler.java:520)
+	at org.springframework.messaging.handler.invocation.AbstractMethodMessageHandler.handleMessage(AbstractMethodMessageHandler.java:454)
+	at org.springframework.messaging.support.ExecutorSubscribableChannel$SendTask.run(ExecutorSubscribableChannel.java:144)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at java.base/java.lang.Thread.run(Thread.java:830)
+[2021-03-23T08:26:48.048Z] [org.springframework.web.socket.config.WebSocketMessageBrokerStats] [MessageBroker-5] [126] [INFO ] WebSocketSession[1 current WS(1)-HttpStream(0)-HttpPoll(0), 1 total, 0 closed abnormally (0 connect failure, 0 send limit, 0 transport error)], stompSubProtocol[processed CONNECT(1)-CONNECTED(1)-DISCONNECT(0)], stompBrokerRelay[null], inboundChannel[pool size = 9, active threads = 0, queued tasks = 0, completed tasks = 9], outboundChannel[pool size = 1, active threads = 0, queued tasks = 0, completed tasks = 1], sockJsScheduler[pool size = 8, active threads = 1, queued tasks = 2, completed tasks = 13]
+[2021-03-23T08:27:29.029Z] [com.walrus.serviceundererred.ServiceundererredApplication] [main] [14] [INFO ] Starting Server
+[2021-03-23T08:27:30.030Z] [org.springframework.boot.StartupInfoLogger] [main] [55] [INFO ] Starting ServiceundererredApplication using Java 13.0.1 on Shithanshu with PID 25380 (C:\Users\SHITH\Desktop\Project\java\walrus\serviceundererred\target\classes started by SHITH in C:\Users\SHITH\Desktop\Project\java\walrus\serviceundererred)
+[2021-03-23T08:27:30.030Z] [org.springframework.boot.SpringApplication] [main] [662] [INFO ] No active profile set, falling back to default profiles: default
+[2021-03-23T08:27:32.032Z] [org.springframework.boot.web.embedded.tomcat.TomcatWebServer] [main] [108] [INFO ] Tomcat initialized with port(s): 8090 (http)
+[2021-03-23T08:27:32.032Z] [org.apache.juli.logging.DirectJDKLog] [main] [173] [INFO ] Initializing ProtocolHandler ["http-nio-8090"]
+[2021-03-23T08:27:32.032Z] [org.apache.juli.logging.DirectJDKLog] [main] [173] [INFO ] Starting service [Tomcat]
+[2021-03-23T08:27:32.032Z] [org.apache.juli.logging.DirectJDKLog] [main] [173] [INFO ] Starting Servlet engine: [Apache Tomcat/9.0.44]
+[2021-03-23T08:27:32.032Z] [org.apache.juli.logging.DirectJDKLog] [main] [173] [INFO ] Initializing Spring embedded WebApplicationContext
+[2021-03-23T08:27:32.032Z] [org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext] [main] [289] [INFO ] Root WebApplicationContext: initialization completed in 1805 ms
+[2021-03-23T08:27:32.032Z] [org.springframework.scheduling.concurrent.ExecutorConfigurationSupport] [main] [181] [INFO ] Initializing ExecutorService 'clientInboundChannelExecutor'
+[2021-03-23T08:27:32.032Z] [org.springframework.scheduling.concurrent.ExecutorConfigurationSupport] [main] [181] [INFO ] Initializing ExecutorService 'clientOutboundChannelExecutor'
+[2021-03-23T08:27:32.032Z] [org.springframework.scheduling.concurrent.ExecutorConfigurationSupport] [main] [181] [INFO ] Initializing ExecutorService 'brokerChannelExecutor'
+[2021-03-23T08:27:32.032Z] [org.springframework.scheduling.concurrent.ExecutorConfigurationSupport] [main] [181] [INFO ] Initializing ExecutorService 'messageBrokerTaskScheduler'
+[2021-03-23T08:27:32.032Z] [org.springframework.boot.autoconfigure.web.servlet.WelcomePageHandlerMapping] [main] [53] [INFO ] Adding welcome page: class path resource [static/index.html]
+[2021-03-23T08:27:33.033Z] [org.apache.juli.logging.DirectJDKLog] [main] [173] [INFO ] Starting ProtocolHandler ["http-nio-8090"]
+[2021-03-23T08:27:33.033Z] [org.springframework.boot.web.embedded.tomcat.TomcatWebServer] [main] [220] [INFO ] Tomcat started on port(s): 8090 (http) with context path ''
+[2021-03-23T08:27:33.033Z] [org.springframework.core.log.CompositeLog] [main] [137] [INFO ] Starting...
+[2021-03-23T08:27:33.033Z] [org.springframework.core.log.CompositeLog] [main] [137] [INFO ] BrokerAvailabilityEvent[available=true, SimpleBrokerMessageHandler [org.springframework.messaging.simp.broker.DefaultSubscriptionRegistry@ceddaf8]]
+[2021-03-23T08:27:33.033Z] [org.springframework.core.log.CompositeLog] [main] [137] [INFO ] Started.
+[2021-03-23T08:27:33.033Z] [org.springframework.boot.StartupInfoLogger] [main] [61] [INFO ] Started ServiceundererredApplication in 3.733 seconds (JVM running for 4.368)
+[2021-03-23T08:28:02.002Z] [org.apache.juli.logging.DirectJDKLog] [http-nio-8090-exec-1] [173] [INFO ] Initializing Spring DispatcherServlet 'dispatcherServlet'
+[2021-03-23T08:28:02.002Z] [org.springframework.web.servlet.FrameworkServlet] [http-nio-8090-exec-1] [525] [INFO ] Initializing Servlet 'dispatcherServlet'
+[2021-03-23T08:28:02.002Z] [org.springframework.web.servlet.FrameworkServlet] [http-nio-8090-exec-1] [547] [INFO ] Completed initialization in 2 ms
+[2021-03-23T08:28:06.006Z] [com.walrus.serviceundererred.api.RequestResponse] [clientInboundChannel-7] [20] [INFO ] Recieved request to start API Call
+[2021-03-23T08:28:06.006Z] [com.walrus.serviceundererred.configuartion.BackendAPICall] [clientInboundChannel-7] [42] [INFO ] Retrying
+[2021-03-23T08:28:06.006Z] [org.springframework.messaging.handler.invocation.AbstractMethodMessageHandler] [clientInboundChannel-7] [593] [ERROR] Unhandled exception from message handler method
+java.lang.NullPointerException: null
+	at com.walrus.serviceundererred.configuartion.BackendAPICall.makeAPICall(BackendAPICall.java:43)
+	at com.walrus.serviceundererred.api.RequestResponse.getRequest(RequestResponse.java:26)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:567)
+	at org.springframework.messaging.handler.invocation.InvocableHandlerMethod.doInvoke(InvocableHandlerMethod.java:171)
+	at org.springframework.messaging.handler.invocation.InvocableHandlerMethod.invoke(InvocableHandlerMethod.java:120)
+	at org.springframework.messaging.handler.invocation.AbstractMethodMessageHandler.handleMatch(AbstractMethodMessageHandler.java:565)
+	at org.springframework.messaging.simp.annotation.support.SimpAnnotationMethodMessageHandler.handleMatch(SimpAnnotationMethodMessageHandler.java:511)
+	at org.springframework.messaging.simp.annotation.support.SimpAnnotationMethodMessageHandler.handleMatch(SimpAnnotationMethodMessageHandler.java:94)
+	at org.springframework.messaging.handler.invocation.AbstractMethodMessageHandler.handleMessageInternal(AbstractMethodMessageHandler.java:520)
+	at org.springframework.messaging.handler.invocation.AbstractMethodMessageHandler.handleMessage(AbstractMethodMessageHandler.java:454)
+	at org.springframework.messaging.support.ExecutorSubscribableChannel$SendTask.run(ExecutorSubscribableChannel.java:144)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at java.base/java.lang.Thread.run(Thread.java:830)
+[2021-03-23T08:28:32.032Z] [org.springframework.web.socket.config.WebSocketMessageBrokerStats] [MessageBroker-3] [126] [INFO ] WebSocketSession[1 current WS(1)-HttpStream(0)-HttpPoll(0), 1 total, 0 closed abnormally (0 connect failure, 0 send limit, 0 transport error)], stompSubProtocol[processed CONNECT(1)-CONNECTED(1)-DISCONNECT(0)], stompBrokerRelay[null], inboundChannel[pool size = 9, active threads = 0, queued tasks = 0, completed tasks = 9], outboundChannel[pool size = 1, active threads = 0, queued tasks = 0, completed tasks = 1], sockJsScheduler[pool size = 8, active threads = 1, queued tasks = 2, completed tasks = 7]
+[2021-03-23T08:30:23.023Z] [com.walrus.serviceundererred.ServiceundererredApplication] [main] [14] [INFO ] Starting Server
+[2021-03-23T08:30:24.024Z] [org.springframework.boot.StartupInfoLogger] [main] [55] [INFO ] Starting ServiceundererredApplication using Java 13.0.1 on Shithanshu with PID 30924 (C:\Users\SHITH\Desktop\Project\java\walrus\serviceundererred\target\classes started by SHITH in C:\Users\SHITH\Desktop\Project\java\walrus\serviceundererred)
+[2021-03-23T08:30:24.024Z] [org.springframework.boot.SpringApplication] [main] [662] [INFO ] No active profile set, falling back to default profiles: default
+[2021-03-23T08:30:26.026Z] [org.springframework.boot.web.embedded.tomcat.TomcatWebServer] [main] [108] [INFO ] Tomcat initialized with port(s): 8090 (http)
+[2021-03-23T08:30:26.026Z] [org.apache.juli.logging.DirectJDKLog] [main] [173] [INFO ] Initializing ProtocolHandler ["http-nio-8090"]
+[2021-03-23T08:30:26.026Z] [org.apache.juli.logging.DirectJDKLog] [main] [173] [INFO ] Starting service [Tomcat]
+[2021-03-23T08:30:26.026Z] [org.apache.juli.logging.DirectJDKLog] [main] [173] [INFO ] Starting Servlet engine: [Apache Tomcat/9.0.44]
+[2021-03-23T08:30:26.026Z] [org.apache.juli.logging.DirectJDKLog] [main] [173] [INFO ] Initializing Spring embedded WebApplicationContext
+[2021-03-23T08:30:26.026Z] [org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext] [main] [289] [INFO ] Root WebApplicationContext: initialization completed in 1964 ms
+[2021-03-23T08:30:26.026Z] [org.springframework.context.support.AbstractApplicationContext] [main] [591] [WARN ] Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'requestResponse': Unsatisfied dependency expressed through field 'template'; nested exception is org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'org.springframework.web.socket.config.annotation.DelegatingWebSocketMessageBrokerConfiguration': Unsatisfied dependency expressed through method 'setConfigurers' parameter 0; nested exception is org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'webSocketSetup': Unsatisfied dependency expressed through field 'template'; nested exception is org.springframework.beans.factory.BeanCurrentlyInCreationException: Error creating bean with name 'brokerMessagingTemplate': Requested bean is currently in creation: Is there an unresolvable circular reference?
+[2021-03-23T08:30:26.026Z] [org.apache.juli.logging.DirectJDKLog] [main] [173] [INFO ] Stopping service [Tomcat]
+[2021-03-23T08:30:26.026Z] [org.springframework.boot.autoconfigure.logging.ConditionEvaluationReportLoggingListener] [main] [136] [INFO ] 
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
+[2021-03-23T08:30:26.026Z] [org.springframework.boot.SpringApplication] [main] [858] [ERROR] Application run failed
+org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'requestResponse': Unsatisfied dependency expressed through field 'template'; nested exception is org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'org.springframework.web.socket.config.annotation.DelegatingWebSocketMessageBrokerConfiguration': Unsatisfied dependency expressed through method 'setConfigurers' parameter 0; nested exception is org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'webSocketSetup': Unsatisfied dependency expressed through field 'template'; nested exception is org.springframework.beans.factory.BeanCurrentlyInCreationException: Error creating bean with name 'brokerMessagingTemplate': Requested bean is currently in creation: Is there an unresolvable circular reference?
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor$AutowiredFieldElement.resolveFieldValue(AutowiredAnnotationBeanPostProcessor.java:660)
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor$AutowiredFieldElement.inject(AutowiredAnnotationBeanPostProcessor.java:640)
+	at org.springframework.beans.factory.annotation.InjectionMetadata.inject(InjectionMetadata.java:119)
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor.postProcessProperties(AutowiredAnnotationBeanPostProcessor.java:399)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.populateBean(AbstractAutowireCapableBeanFactory.java:1413)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:601)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:524)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:335)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:234)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:333)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:208)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.preInstantiateSingletons(DefaultListableBeanFactory.java:944)
+	at org.springframework.context.support.AbstractApplicationContext.finishBeanFactoryInitialization(AbstractApplicationContext.java:918)
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:583)
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.refresh(ServletWebServerApplicationContext.java:144)
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:769)
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:761)
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:426)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:326)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1313)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1302)
+	at com.walrus.serviceundererred.ServiceundererredApplication.main(ServiceundererredApplication.java:15)
+Caused by: org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'org.springframework.web.socket.config.annotation.DelegatingWebSocketMessageBrokerConfiguration': Unsatisfied dependency expressed through method 'setConfigurers' parameter 0; nested exception is org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'webSocketSetup': Unsatisfied dependency expressed through field 'template'; nested exception is org.springframework.beans.factory.BeanCurrentlyInCreationException: Error creating bean with name 'brokerMessagingTemplate': Requested bean is currently in creation: Is there an unresolvable circular reference?
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor$AutowiredMethodElement.resolveMethodArguments(AutowiredAnnotationBeanPostProcessor.java:768)
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor$AutowiredMethodElement.inject(AutowiredAnnotationBeanPostProcessor.java:720)
+	at org.springframework.beans.factory.annotation.InjectionMetadata.inject(InjectionMetadata.java:119)
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor.postProcessProperties(AutowiredAnnotationBeanPostProcessor.java:399)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.populateBean(AbstractAutowireCapableBeanFactory.java:1413)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:601)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:524)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:335)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:234)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:333)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:208)
+	at org.springframework.beans.factory.support.ConstructorResolver.instantiateUsingFactoryMethod(ConstructorResolver.java:410)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.instantiateUsingFactoryMethod(AbstractAutowireCapableBeanFactory.java:1334)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBeanInstance(AbstractAutowireCapableBeanFactory.java:1177)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:564)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:524)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:335)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:234)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:333)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:208)
+	at org.springframework.beans.factory.config.DependencyDescriptor.resolveCandidate(DependencyDescriptor.java:276)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.doResolveDependency(DefaultListableBeanFactory.java:1380)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.resolveDependency(DefaultListableBeanFactory.java:1300)
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor$AutowiredFieldElement.resolveFieldValue(AutowiredAnnotationBeanPostProcessor.java:657)
+	... 21 common frames omitted
+Caused by: org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'webSocketSetup': Unsatisfied dependency expressed through field 'template'; nested exception is org.springframework.beans.factory.BeanCurrentlyInCreationException: Error creating bean with name 'brokerMessagingTemplate': Requested bean is currently in creation: Is there an unresolvable circular reference?
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor$AutowiredFieldElement.resolveFieldValue(AutowiredAnnotationBeanPostProcessor.java:660)
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor$AutowiredFieldElement.inject(AutowiredAnnotationBeanPostProcessor.java:640)
+	at org.springframework.beans.factory.annotation.InjectionMetadata.inject(InjectionMetadata.java:119)
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor.postProcessProperties(AutowiredAnnotationBeanPostProcessor.java:399)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.populateBean(AbstractAutowireCapableBeanFactory.java:1413)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:601)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:524)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:335)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:234)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:333)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:208)
+	at org.springframework.beans.factory.config.DependencyDescriptor.resolveCandidate(DependencyDescriptor.java:276)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.addCandidateEntry(DefaultListableBeanFactory.java:1598)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.findAutowireCandidates(DefaultListableBeanFactory.java:1562)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.resolveMultipleBeans(DefaultListableBeanFactory.java:1451)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.doResolveDependency(DefaultListableBeanFactory.java:1338)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.resolveDependency(DefaultListableBeanFactory.java:1300)
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor$AutowiredMethodElement.resolveMethodArguments(AutowiredAnnotationBeanPostProcessor.java:760)
+	... 44 common frames omitted
+Caused by: org.springframework.beans.factory.BeanCurrentlyInCreationException: Error creating bean with name 'brokerMessagingTemplate': Requested bean is currently in creation: Is there an unresolvable circular reference?
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.beforeSingletonCreation(DefaultSingletonBeanRegistry.java:355)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:227)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:333)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:208)
+	at org.springframework.beans.factory.config.DependencyDescriptor.resolveCandidate(DependencyDescriptor.java:276)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.doResolveDependency(DefaultListableBeanFactory.java:1380)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.resolveDependency(DefaultListableBeanFactory.java:1300)
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor$AutowiredFieldElement.resolveFieldValue(AutowiredAnnotationBeanPostProcessor.java:657)
+	... 61 common frames omitted
+[2021-03-23T08:32:09.009Z] [com.walrus.serviceundererred.ServiceundererredApplication] [main] [14] [INFO ] Starting Server
+[2021-03-23T08:32:10.010Z] [org.springframework.boot.StartupInfoLogger] [main] [55] [INFO ] Starting ServiceundererredApplication using Java 13.0.1 on Shithanshu with PID 13868 (C:\Users\SHITH\Desktop\Project\java\walrus\serviceundererred\target\classes started by SHITH in C:\Users\SHITH\Desktop\Project\java\walrus\serviceundererred)
+[2021-03-23T08:32:10.010Z] [org.springframework.boot.SpringApplication] [main] [662] [INFO ] No active profile set, falling back to default profiles: default
+[2021-03-23T08:32:12.012Z] [org.springframework.boot.web.embedded.tomcat.TomcatWebServer] [main] [108] [INFO ] Tomcat initialized with port(s): 8090 (http)
+[2021-03-23T08:32:12.012Z] [org.apache.juli.logging.DirectJDKLog] [main] [173] [INFO ] Initializing ProtocolHandler ["http-nio-8090"]
+[2021-03-23T08:32:12.012Z] [org.apache.juli.logging.DirectJDKLog] [main] [173] [INFO ] Starting service [Tomcat]
+[2021-03-23T08:32:12.012Z] [org.apache.juli.logging.DirectJDKLog] [main] [173] [INFO ] Starting Servlet engine: [Apache Tomcat/9.0.44]
+[2021-03-23T08:32:12.012Z] [org.apache.juli.logging.DirectJDKLog] [main] [173] [INFO ] Initializing Spring embedded WebApplicationContext
+[2021-03-23T08:32:12.012Z] [org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext] [main] [289] [INFO ] Root WebApplicationContext: initialization completed in 1894 ms
+[2021-03-23T08:32:12.012Z] [org.springframework.scheduling.concurrent.ExecutorConfigurationSupport] [main] [181] [INFO ] Initializing ExecutorService 'clientInboundChannelExecutor'
+[2021-03-23T08:32:12.012Z] [org.springframework.scheduling.concurrent.ExecutorConfigurationSupport] [main] [181] [INFO ] Initializing ExecutorService 'clientOutboundChannelExecutor'
+[2021-03-23T08:32:12.012Z] [org.springframework.scheduling.concurrent.ExecutorConfigurationSupport] [main] [181] [INFO ] Initializing ExecutorService 'brokerChannelExecutor'
+[2021-03-23T08:32:12.012Z] [org.springframework.scheduling.concurrent.ExecutorConfigurationSupport] [main] [181] [INFO ] Initializing ExecutorService 'messageBrokerTaskScheduler'
+[2021-03-23T08:32:13.013Z] [org.springframework.boot.autoconfigure.web.servlet.WelcomePageHandlerMapping] [main] [53] [INFO ] Adding welcome page: class path resource [static/index.html]
+[2021-03-23T08:32:13.013Z] [org.apache.juli.logging.DirectJDKLog] [main] [173] [INFO ] Starting ProtocolHandler ["http-nio-8090"]
+[2021-03-23T08:32:13.013Z] [org.springframework.boot.web.embedded.tomcat.TomcatWebServer] [main] [220] [INFO ] Tomcat started on port(s): 8090 (http) with context path ''
+[2021-03-23T08:32:13.013Z] [org.springframework.core.log.CompositeLog] [main] [137] [INFO ] Starting...
+[2021-03-23T08:32:13.013Z] [org.springframework.core.log.CompositeLog] [main] [137] [INFO ] BrokerAvailabilityEvent[available=true, SimpleBrokerMessageHandler [org.springframework.messaging.simp.broker.DefaultSubscriptionRegistry@329548d0]]
+[2021-03-23T08:32:13.013Z] [org.springframework.core.log.CompositeLog] [main] [137] [INFO ] Started.
+[2021-03-23T08:32:13.013Z] [org.springframework.boot.StartupInfoLogger] [main] [61] [INFO ] Started ServiceundererredApplication in 3.87 seconds (JVM running for 4.601)
+[2021-03-23T08:32:17.017Z] [org.apache.juli.logging.DirectJDKLog] [http-nio-8090-exec-1] [173] [INFO ] Initializing Spring DispatcherServlet 'dispatcherServlet'
+[2021-03-23T08:32:17.017Z] [org.springframework.web.servlet.FrameworkServlet] [http-nio-8090-exec-1] [525] [INFO ] Initializing Servlet 'dispatcherServlet'
+[2021-03-23T08:32:17.017Z] [org.springframework.web.servlet.FrameworkServlet] [http-nio-8090-exec-1] [547] [INFO ] Completed initialization in 2 ms
+[2021-03-23T08:32:21.021Z] [com.walrus.serviceundererred.api.RequestResponse] [clientInboundChannel-7] [24] [INFO ] Recieved request to start API Call
+[2021-03-23T08:32:21.021Z] [com.walrus.serviceundererred.configuartion.BackendAPICall] [clientInboundChannel-7] [38] [INFO ] Retrying
+[2021-03-23T08:32:21.021Z] [com.walrus.serviceundererred.configuartion.ExponentialBackoff] [clientInboundChannel-7] [56] [INFO ] waiting for 1000
+[2021-03-23T08:32:22.022Z] [com.walrus.serviceundererred.configuartion.BackendAPICall] [clientInboundChannel-7] [38] [INFO ] Retrying
+[2021-03-23T08:32:22.022Z] [com.walrus.serviceundererred.configuartion.ExponentialBackoff] [clientInboundChannel-7] [56] [INFO ] waiting for 1000
+[2021-03-23T08:32:23.023Z] [com.walrus.serviceundererred.configuartion.BackendAPICall] [clientInboundChannel-7] [38] [INFO ] Retrying
+[2021-03-23T08:32:23.023Z] [com.walrus.serviceundererred.configuartion.ExponentialBackoff] [clientInboundChannel-7] [56] [INFO ] waiting for 1000
+[2021-03-23T08:32:24.024Z] [com.walrus.serviceundererred.configuartion.BackendAPICall] [clientInboundChannel-7] [38] [INFO ] Retrying
+[2021-03-23T08:32:24.024Z] [com.walrus.serviceundererred.configuartion.ExponentialBackoff] [clientInboundChannel-7] [56] [INFO ] waiting for 1000
+[2021-03-23T08:32:25.025Z] [com.walrus.serviceundererred.configuartion.BackendAPICall] [clientInboundChannel-7] [38] [INFO ] Retrying
+[2021-03-23T08:32:25.025Z] [com.walrus.serviceundererred.configuartion.ExponentialBackoff] [clientInboundChannel-7] [56] [INFO ] waiting for 1000
+[2021-03-23T08:32:26.026Z] [com.walrus.serviceundererred.configuartion.BackendAPICall] [clientInboundChannel-7] [38] [INFO ] Retrying
+[2021-03-23T08:32:26.026Z] [com.walrus.serviceundererred.configuartion.ExponentialBackoff] [clientInboundChannel-7] [56] [INFO ] waiting for 1000
+[2021-03-23T08:32:27.027Z] [com.walrus.serviceundererred.configuartion.BackendAPICall] [clientInboundChannel-7] [38] [INFO ] Retrying
+[2021-03-23T08:32:27.027Z] [com.walrus.serviceundererred.configuartion.ExponentialBackoff] [clientInboundChannel-7] [56] [INFO ] waiting for 1000
+[2021-03-23T08:32:28.028Z] [com.walrus.serviceundererred.configuartion.BackendAPICall] [clientInboundChannel-7] [38] [INFO ] Retrying
+[2021-03-23T08:32:28.028Z] [com.walrus.serviceundererred.configuartion.ExponentialBackoff] [clientInboundChannel-7] [56] [INFO ] waiting for 1000
+[2021-03-23T08:32:29.029Z] [com.walrus.serviceundererred.configuartion.BackendAPICall] [clientInboundChannel-7] [38] [INFO ] Retrying
+[2021-03-23T08:32:29.029Z] [com.walrus.serviceundererred.configuartion.ExponentialBackoff] [clientInboundChannel-7] [56] [INFO ] waiting for 1000
+[2021-03-23T08:32:30.030Z] [com.walrus.serviceundererred.configuartion.BackendAPICall] [clientInboundChannel-7] [38] [INFO ] Retrying
+[2021-03-23T08:32:30.030Z] [com.walrus.serviceundererred.configuartion.ExponentialBackoff] [clientInboundChannel-7] [44] [INFO ] API Call Failed
+[2021-03-23T08:32:30.030Z] [com.walrus.serviceundererred.configuartion.ExponentialBackoff] [clientInboundChannel-7] [56] [INFO ] waiting for 1000
+[2021-03-23T08:32:31.031Z] [com.walrus.serviceundererred.configuartion.BackendAPICall] [clientInboundChannel-7] [51] [WARN ] exceeded retried stopping backoff
+[2021-03-23T08:33:12.012Z] [org.springframework.web.socket.config.WebSocketMessageBrokerStats] [MessageBroker-7] [126] [INFO ] WebSocketSession[1 current WS(1)-HttpStream(0)-HttpPoll(0), 1 total, 0 closed abnormally (0 connect failure, 0 send limit, 0 transport error)], stompSubProtocol[processed CONNECT(1)-CONNECTED(1)-DISCONNECT(0)], stompBrokerRelay[null], inboundChannel[pool size = 9, active threads = 0, queued tasks = 0, completed tasks = 9], outboundChannel[pool size = 12, active threads = 0, queued tasks = 0, completed tasks = 12], sockJsScheduler[pool size = 8, active threads = 1, queued tasks = 2, completed tasks = 12]
+[2021-03-23T08:35:52.052Z] [com.walrus.serviceundererred.ServiceundererredApplication] [main] [14] [INFO ] Starting Server
+[2021-03-23T08:35:52.052Z] [org.springframework.boot.StartupInfoLogger] [main] [55] [INFO ] Starting ServiceundererredApplication using Java 13.0.1 on Shithanshu with PID 27192 (C:\Users\SHITH\Desktop\Project\java\walrus\serviceundererred\target\classes started by SHITH in C:\Users\SHITH\Desktop\Project\java\walrus\serviceundererred)
+[2021-03-23T08:35:52.052Z] [org.springframework.boot.SpringApplication] [main] [662] [INFO ] No active profile set, falling back to default profiles: default
+[2021-03-23T08:35:54.054Z] [org.springframework.boot.web.embedded.tomcat.TomcatWebServer] [main] [108] [INFO ] Tomcat initialized with port(s): 8090 (http)
+[2021-03-23T08:35:54.054Z] [org.apache.juli.logging.DirectJDKLog] [main] [173] [INFO ] Initializing ProtocolHandler ["http-nio-8090"]
+[2021-03-23T08:35:54.054Z] [org.apache.juli.logging.DirectJDKLog] [main] [173] [INFO ] Starting service [Tomcat]
+[2021-03-23T08:35:54.054Z] [org.apache.juli.logging.DirectJDKLog] [main] [173] [INFO ] Starting Servlet engine: [Apache Tomcat/9.0.44]
+[2021-03-23T08:35:54.054Z] [org.apache.juli.logging.DirectJDKLog] [main] [173] [INFO ] Initializing Spring embedded WebApplicationContext
+[2021-03-23T08:35:54.054Z] [org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext] [main] [289] [INFO ] Root WebApplicationContext: initialization completed in 1851 ms
+[2021-03-23T08:35:54.054Z] [org.springframework.scheduling.concurrent.ExecutorConfigurationSupport] [main] [181] [INFO ] Initializing ExecutorService 'clientInboundChannelExecutor'
+[2021-03-23T08:35:54.054Z] [org.springframework.scheduling.concurrent.ExecutorConfigurationSupport] [main] [181] [INFO ] Initializing ExecutorService 'clientOutboundChannelExecutor'
+[2021-03-23T08:35:54.054Z] [org.springframework.scheduling.concurrent.ExecutorConfigurationSupport] [main] [181] [INFO ] Initializing ExecutorService 'brokerChannelExecutor'
+[2021-03-23T08:35:54.054Z] [org.springframework.scheduling.concurrent.ExecutorConfigurationSupport] [main] [181] [INFO ] Initializing ExecutorService 'messageBrokerTaskScheduler'
+[2021-03-23T08:35:55.055Z] [org.springframework.boot.autoconfigure.web.servlet.WelcomePageHandlerMapping] [main] [53] [INFO ] Adding welcome page: class path resource [static/index.html]
+[2021-03-23T08:35:55.055Z] [org.apache.juli.logging.DirectJDKLog] [main] [173] [INFO ] Starting ProtocolHandler ["http-nio-8090"]
+[2021-03-23T08:35:56.056Z] [org.springframework.boot.web.embedded.tomcat.TomcatWebServer] [main] [220] [INFO ] Tomcat started on port(s): 8090 (http) with context path ''
+[2021-03-23T08:35:56.056Z] [org.springframework.core.log.CompositeLog] [main] [137] [INFO ] Starting...
+[2021-03-23T08:35:56.056Z] [org.springframework.core.log.CompositeLog] [main] [137] [INFO ] BrokerAvailabilityEvent[available=true, SimpleBrokerMessageHandler [org.springframework.messaging.simp.broker.DefaultSubscriptionRegistry@692dba54]]
+[2021-03-23T08:35:56.056Z] [org.springframework.core.log.CompositeLog] [main] [137] [INFO ] Started.
+[2021-03-23T08:35:56.056Z] [org.springframework.boot.StartupInfoLogger] [main] [61] [INFO ] Started ServiceundererredApplication in 3.798 seconds (JVM running for 4.474)
+[2021-03-23T08:36:09.009Z] [org.apache.juli.logging.DirectJDKLog] [http-nio-8090-exec-1] [173] [INFO ] Initializing Spring DispatcherServlet 'dispatcherServlet'
+[2021-03-23T08:36:09.009Z] [org.springframework.web.servlet.FrameworkServlet] [http-nio-8090-exec-1] [525] [INFO ] Initializing Servlet 'dispatcherServlet'
+[2021-03-23T08:36:09.009Z] [org.springframework.web.servlet.FrameworkServlet] [http-nio-8090-exec-1] [547] [INFO ] Completed initialization in 1 ms
+[2021-03-23T08:36:13.013Z] [com.walrus.serviceundererred.api.RequestResponse] [clientInboundChannel-7] [24] [INFO ] Recieved request to start API Call
+[2021-03-23T08:36:13.013Z] [com.walrus.serviceundererred.configuartion.BackendAPICall] [clientInboundChannel-7] [38] [INFO ] Retrying
+[2021-03-23T08:36:13.013Z] [com.walrus.serviceundererred.configuartion.ExponentialBackoff] [clientInboundChannel-7] [56] [INFO ] waiting for 1000
+[2021-03-23T08:36:14.014Z] [com.walrus.serviceundererred.configuartion.BackendAPICall] [clientInboundChannel-7] [38] [INFO ] Retrying
+[2021-03-23T08:36:14.014Z] [com.walrus.serviceundererred.configuartion.ExponentialBackoff] [clientInboundChannel-7] [56] [INFO ] waiting for 1353
+[2021-03-23T08:36:15.015Z] [com.walrus.serviceundererred.configuartion.BackendAPICall] [clientInboundChannel-7] [38] [INFO ] Retrying
+[2021-03-23T08:36:15.015Z] [com.walrus.serviceundererred.configuartion.ExponentialBackoff] [clientInboundChannel-7] [56] [INFO ] waiting for 1828
+[2021-03-23T08:36:17.017Z] [com.walrus.serviceundererred.configuartion.BackendAPICall] [clientInboundChannel-7] [38] [INFO ] Retrying
+[2021-03-23T08:36:17.017Z] [com.walrus.serviceundererred.configuartion.ExponentialBackoff] [clientInboundChannel-7] [56] [INFO ] waiting for 2080
+[2021-03-23T08:36:19.019Z] [com.walrus.serviceundererred.configuartion.BackendAPICall] [clientInboundChannel-7] [38] [INFO ] Retrying
+[2021-03-23T08:36:19.019Z] [com.walrus.serviceundererred.configuartion.ExponentialBackoff] [clientInboundChannel-7] [56] [INFO ] waiting for 2784
+[2021-03-23T08:36:22.022Z] [com.walrus.serviceundererred.configuartion.BackendAPICall] [clientInboundChannel-7] [38] [INFO ] Retrying
+[2021-03-23T08:36:22.022Z] [com.walrus.serviceundererred.configuartion.ExponentialBackoff] [clientInboundChannel-7] [56] [INFO ] waiting for 3091
+[2021-03-23T08:36:25.025Z] [com.walrus.serviceundererred.configuartion.BackendAPICall] [clientInboundChannel-7] [38] [INFO ] Retrying
+[2021-03-23T08:36:25.025Z] [com.walrus.serviceundererred.configuartion.ExponentialBackoff] [clientInboundChannel-7] [56] [INFO ] waiting for 3819
+[2021-03-23T08:36:29.029Z] [com.walrus.serviceundererred.configuartion.BackendAPICall] [clientInboundChannel-7] [38] [INFO ] Retrying
+[2021-03-23T08:36:29.029Z] [com.walrus.serviceundererred.configuartion.ExponentialBackoff] [clientInboundChannel-7] [56] [INFO ] waiting for 4148
+[2021-03-23T08:36:33.033Z] [com.walrus.serviceundererred.configuartion.BackendAPICall] [clientInboundChannel-7] [38] [INFO ] Retrying
+[2021-03-23T08:36:33.033Z] [com.walrus.serviceundererred.configuartion.ExponentialBackoff] [clientInboundChannel-7] [56] [INFO ] waiting for 4342
+[2021-03-23T08:36:38.038Z] [com.walrus.serviceundererred.configuartion.BackendAPICall] [clientInboundChannel-7] [38] [INFO ] Retrying
+[2021-03-23T08:36:38.038Z] [com.walrus.serviceundererred.configuartion.ExponentialBackoff] [clientInboundChannel-7] [44] [INFO ] API Call Failed
+[2021-03-23T08:36:38.038Z] [com.walrus.serviceundererred.configuartion.ExponentialBackoff] [clientInboundChannel-7] [56] [INFO ] waiting for 5077
+[2021-03-23T08:36:43.043Z] [com.walrus.serviceundererred.configuartion.BackendAPICall] [clientInboundChannel-7] [51] [WARN ] exceeded retried stopping backoff
+[2021-03-23T08:36:54.054Z] [org.springframework.web.socket.config.WebSocketMessageBrokerStats] [MessageBroker-3] [126] [INFO ] WebSocketSession[1 current WS(1)-HttpStream(0)-HttpPoll(0), 1 total, 0 closed abnormally (0 connect failure, 0 send limit, 0 transport error)], stompSubProtocol[processed CONNECT(1)-CONNECTED(1)-DISCONNECT(0)], stompBrokerRelay[null], inboundChannel[pool size = 9, active threads = 0, queued tasks = 0, completed tasks = 9], outboundChannel[pool size = 12, active threads = 0, queued tasks = 0, completed tasks = 12], sockJsScheduler[pool size = 8, active threads = 1, queued tasks = 2, completed tasks = 9]
+[2021-03-23T08:53:37.037Z] [com.walrus.serviceundererred.ServiceundererredApplication] [main] [14] [INFO ] Starting Server
+[2021-03-23T08:53:38.038Z] [org.springframework.boot.StartupInfoLogger] [main] [55] [INFO ] Starting ServiceundererredApplication using Java 13.0.1 on Shithanshu with PID 15040 (C:\Users\SHITH\Desktop\Project\java\walrus\serviceundererred\target\classes started by SHITH in C:\Users\SHITH\Desktop\Project\java\walrus\serviceundererred)
+[2021-03-23T08:53:38.038Z] [org.springframework.boot.SpringApplication] [main] [662] [INFO ] No active profile set, falling back to default profiles: default
+[2021-03-23T08:53:40.040Z] [org.springframework.boot.web.embedded.tomcat.TomcatWebServer] [main] [108] [INFO ] Tomcat initialized with port(s): 8090 (http)
+[2021-03-23T08:53:40.040Z] [org.apache.juli.logging.DirectJDKLog] [main] [173] [INFO ] Initializing ProtocolHandler ["http-nio-8090"]
+[2021-03-23T08:53:40.040Z] [org.apache.juli.logging.DirectJDKLog] [main] [173] [INFO ] Starting service [Tomcat]
+[2021-03-23T08:53:40.040Z] [org.apache.juli.logging.DirectJDKLog] [main] [173] [INFO ] Starting Servlet engine: [Apache Tomcat/9.0.44]
+[2021-03-23T08:53:40.040Z] [org.apache.juli.logging.DirectJDKLog] [main] [173] [INFO ] Initializing Spring embedded WebApplicationContext
+[2021-03-23T08:53:40.040Z] [org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext] [main] [289] [INFO ] Root WebApplicationContext: initialization completed in 1957 ms
+[2021-03-23T08:53:40.040Z] [org.springframework.scheduling.concurrent.ExecutorConfigurationSupport] [main] [181] [INFO ] Initializing ExecutorService 'clientInboundChannelExecutor'
+[2021-03-23T08:53:40.040Z] [org.springframework.scheduling.concurrent.ExecutorConfigurationSupport] [main] [181] [INFO ] Initializing ExecutorService 'clientOutboundChannelExecutor'
+[2021-03-23T08:53:40.040Z] [org.springframework.scheduling.concurrent.ExecutorConfigurationSupport] [main] [181] [INFO ] Initializing ExecutorService 'brokerChannelExecutor'
+[2021-03-23T08:53:40.040Z] [org.springframework.scheduling.concurrent.ExecutorConfigurationSupport] [main] [181] [INFO ] Initializing ExecutorService 'messageBrokerTaskScheduler'
+[2021-03-23T08:53:41.041Z] [org.springframework.boot.autoconfigure.web.servlet.WelcomePageHandlerMapping] [main] [53] [INFO ] Adding welcome page: class path resource [static/index.html]
+[2021-03-23T08:53:41.041Z] [org.apache.juli.logging.DirectJDKLog] [main] [173] [INFO ] Starting ProtocolHandler ["http-nio-8090"]
+[2021-03-23T08:53:41.041Z] [org.springframework.boot.web.embedded.tomcat.TomcatWebServer] [main] [220] [INFO ] Tomcat started on port(s): 8090 (http) with context path ''
+[2021-03-23T08:53:41.041Z] [org.springframework.core.log.CompositeLog] [main] [137] [INFO ] Starting...
+[2021-03-23T08:53:41.041Z] [org.springframework.core.log.CompositeLog] [main] [137] [INFO ] BrokerAvailabilityEvent[available=true, SimpleBrokerMessageHandler [org.springframework.messaging.simp.broker.DefaultSubscriptionRegistry@7cca01a8]]
+[2021-03-23T08:53:41.041Z] [org.springframework.core.log.CompositeLog] [main] [137] [INFO ] Started.
+[2021-03-23T08:53:41.041Z] [org.springframework.boot.StartupInfoLogger] [main] [61] [INFO ] Started ServiceundererredApplication in 3.937 seconds (JVM running for 4.621)
+[2021-03-23T08:53:54.054Z] [com.walrus.serviceundererred.ServiceundererredApplication] [main] [14] [INFO ] Starting Server
+[2021-03-23T08:53:54.054Z] [org.springframework.boot.StartupInfoLogger] [main] [55] [INFO ] Starting ServiceundererredApplication using Java 13.0.1 on Shithanshu with PID 30960 (C:\Users\SHITH\Desktop\Project\java\walrus\serviceundererred\target\classes started by SHITH in C:\Users\SHITH\Desktop\Project\java\walrus\serviceundererred)
+[2021-03-23T08:53:54.054Z] [org.springframework.boot.SpringApplication] [main] [662] [INFO ] No active profile set, falling back to default profiles: default
+[2021-03-23T08:53:56.056Z] [org.springframework.boot.web.embedded.tomcat.TomcatWebServer] [main] [108] [INFO ] Tomcat initialized with port(s): 8090 (http)
+[2021-03-23T08:53:56.056Z] [org.apache.juli.logging.DirectJDKLog] [main] [173] [INFO ] Initializing ProtocolHandler ["http-nio-8090"]
+[2021-03-23T08:53:56.056Z] [org.apache.juli.logging.DirectJDKLog] [main] [173] [INFO ] Starting service [Tomcat]
+[2021-03-23T08:53:56.056Z] [org.apache.juli.logging.DirectJDKLog] [main] [173] [INFO ] Starting Servlet engine: [Apache Tomcat/9.0.44]
+[2021-03-23T08:53:56.056Z] [org.apache.juli.logging.DirectJDKLog] [main] [173] [INFO ] Initializing Spring embedded WebApplicationContext
+[2021-03-23T08:53:56.056Z] [org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext] [main] [289] [INFO ] Root WebApplicationContext: initialization completed in 1743 ms
+[2021-03-23T08:53:56.056Z] [org.springframework.scheduling.concurrent.ExecutorConfigurationSupport] [main] [181] [INFO ] Initializing ExecutorService 'clientInboundChannelExecutor'
+[2021-03-23T08:53:56.056Z] [org.springframework.scheduling.concurrent.ExecutorConfigurationSupport] [main] [181] [INFO ] Initializing ExecutorService 'clientOutboundChannelExecutor'
+[2021-03-23T08:53:56.056Z] [org.springframework.scheduling.concurrent.ExecutorConfigurationSupport] [main] [181] [INFO ] Initializing ExecutorService 'brokerChannelExecutor'
+[2021-03-23T08:53:56.056Z] [org.springframework.scheduling.concurrent.ExecutorConfigurationSupport] [main] [181] [INFO ] Initializing ExecutorService 'messageBrokerTaskScheduler'
+[2021-03-23T08:53:56.056Z] [org.springframework.boot.autoconfigure.web.servlet.WelcomePageHandlerMapping] [main] [53] [INFO ] Adding welcome page: class path resource [static/index.html]
+[2021-03-23T08:53:57.057Z] [org.apache.juli.logging.DirectJDKLog] [main] [173] [INFO ] Starting ProtocolHandler ["http-nio-8090"]
+[2021-03-23T08:53:57.057Z] [org.springframework.boot.web.embedded.tomcat.TomcatWebServer] [main] [220] [INFO ] Tomcat started on port(s): 8090 (http) with context path ''
+[2021-03-23T08:53:57.057Z] [org.springframework.core.log.CompositeLog] [main] [137] [INFO ] Starting...
+[2021-03-23T08:53:57.057Z] [org.springframework.core.log.CompositeLog] [main] [137] [INFO ] BrokerAvailabilityEvent[available=true, SimpleBrokerMessageHandler [org.springframework.messaging.simp.broker.DefaultSubscriptionRegistry@35c9a231]]
+[2021-03-23T08:53:57.057Z] [org.springframework.core.log.CompositeLog] [main] [137] [INFO ] Started.
+[2021-03-23T08:53:57.057Z] [org.springframework.boot.StartupInfoLogger] [main] [61] [INFO ] Started ServiceundererredApplication in 3.486 seconds (JVM running for 4.166)
+[2021-03-23T08:54:06.006Z] [org.apache.juli.logging.DirectJDKLog] [http-nio-8090-exec-1] [173] [INFO ] Initializing Spring DispatcherServlet 'dispatcherServlet'
+[2021-03-23T08:54:06.006Z] [org.springframework.web.servlet.FrameworkServlet] [http-nio-8090-exec-1] [525] [INFO ] Initializing Servlet 'dispatcherServlet'
+[2021-03-23T08:54:06.006Z] [org.springframework.web.servlet.FrameworkServlet] [http-nio-8090-exec-1] [547] [INFO ] Completed initialization in 1 ms
+[2021-03-23T08:54:09.009Z] [com.walrus.serviceundererred.api.RequestResponse] [clientInboundChannel-7] [24] [INFO ] Recieved request to start API Call
+[2021-03-23T08:54:09.009Z] [com.walrus.serviceundererred.configuartion.BackendAPICall] [clientInboundChannel-7] [54] [INFO ] Retrying
+[2021-03-23T08:54:09.009Z] [com.walrus.serviceundererred.configuartion.ExponentialBackoff] [clientInboundChannel-7] [56] [INFO ] waiting for 1000
+[2021-03-23T08:54:10.010Z] [com.walrus.serviceundererred.configuartion.BackendAPICall] [clientInboundChannel-7] [54] [INFO ] Retrying
+[2021-03-23T08:54:10.010Z] [com.walrus.serviceundererred.configuartion.ExponentialBackoff] [clientInboundChannel-7] [56] [INFO ] waiting for 1068
+[2021-03-23T08:54:11.011Z] [com.walrus.serviceundererred.configuartion.BackendAPICall] [clientInboundChannel-7] [54] [INFO ] Retrying
+[2021-03-23T08:54:11.011Z] [com.walrus.serviceundererred.configuartion.ExponentialBackoff] [clientInboundChannel-7] [56] [INFO ] waiting for 1188
+[2021-03-23T08:54:12.012Z] [com.walrus.serviceundererred.configuartion.BackendAPICall] [clientInboundChannel-7] [54] [INFO ] Retrying
+[2021-03-23T08:54:12.012Z] [com.walrus.serviceundererred.configuartion.ExponentialBackoff] [clientInboundChannel-7] [56] [INFO ] waiting for 1511
+[2021-03-23T08:54:14.014Z] [com.walrus.serviceundererred.configuartion.BackendAPICall] [clientInboundChannel-7] [54] [INFO ] Retrying
+[2021-03-23T08:54:14.014Z] [com.walrus.serviceundererred.configuartion.ExponentialBackoff] [clientInboundChannel-7] [56] [INFO ] waiting for 2345
+[2021-03-23T08:54:16.016Z] [com.walrus.serviceundererred.configuartion.BackendAPICall] [clientInboundChannel-7] [54] [INFO ] Retrying
+[2021-03-23T08:54:16.016Z] [com.walrus.serviceundererred.configuartion.ExponentialBackoff] [clientInboundChannel-7] [56] [INFO ] waiting for 2673
+[2021-03-23T08:54:19.019Z] [com.walrus.serviceundererred.configuartion.BackendAPICall] [clientInboundChannel-7] [54] [INFO ] Retrying
+[2021-03-23T08:54:19.019Z] [com.walrus.serviceundererred.configuartion.ExponentialBackoff] [clientInboundChannel-7] [56] [INFO ] waiting for 3668
+[2021-03-23T08:54:23.023Z] [com.walrus.serviceundererred.configuartion.BackendAPICall] [clientInboundChannel-7] [54] [INFO ] Retrying
+[2021-03-23T08:54:23.023Z] [com.walrus.serviceundererred.configuartion.ExponentialBackoff] [clientInboundChannel-7] [56] [INFO ] waiting for 4003
+[2021-03-23T08:54:27.027Z] [com.walrus.serviceundererred.configuartion.BackendAPICall] [clientInboundChannel-7] [54] [INFO ] Retrying
+[2021-03-23T08:54:27.027Z] [com.walrus.serviceundererred.configuartion.ExponentialBackoff] [clientInboundChannel-7] [56] [INFO ] waiting for 4300
+[2021-03-23T08:54:31.031Z] [com.walrus.serviceundererred.configuartion.BackendAPICall] [clientInboundChannel-7] [54] [INFO ] Retrying
+[2021-03-23T08:54:31.031Z] [com.walrus.serviceundererred.configuartion.ExponentialBackoff] [clientInboundChannel-7] [44] [INFO ] API Call Failed
+[2021-03-23T08:54:31.031Z] [com.walrus.serviceundererred.configuartion.ExponentialBackoff] [clientInboundChannel-7] [56] [INFO ] waiting for 4738
+[2021-03-23T08:54:36.036Z] [com.walrus.serviceundererred.configuartion.BackendAPICall] [clientInboundChannel-7] [67] [WARN ] exceeded retried stopping backoff
+[2021-03-23T08:54:38.038Z] [com.walrus.serviceundererred.api.RequestResponse] [clientInboundChannel-10] [24] [INFO ] Recieved request to start API Call
+[2021-03-23T08:54:38.038Z] [com.walrus.serviceundererred.configuartion.BackendAPICall] [clientInboundChannel-10] [54] [INFO ] Retrying
+[2021-03-23T08:54:38.038Z] [com.walrus.serviceundererred.configuartion.ExponentialBackoff] [clientInboundChannel-10] [56] [INFO ] waiting for 1000
+[2021-03-23T08:54:39.039Z] [com.walrus.serviceundererred.configuartion.BackendAPICall] [clientInboundChannel-10] [54] [INFO ] Retrying
+[2021-03-23T08:54:39.039Z] [com.walrus.serviceundererred.configuartion.ExponentialBackoff] [clientInboundChannel-10] [56] [INFO ] waiting for 1295
+[2021-03-23T08:54:41.041Z] [com.walrus.serviceundererred.configuartion.BackendAPICall] [clientInboundChannel-10] [54] [INFO ] Retrying
+[2021-03-23T08:54:41.041Z] [com.walrus.serviceundererred.configuartion.ExponentialBackoff] [clientInboundChannel-10] [56] [INFO ] waiting for 2214
+[2021-03-23T08:54:43.043Z] [com.walrus.serviceundererred.configuartion.BackendAPICall] [clientInboundChannel-10] [54] [INFO ] Retrying
+[2021-03-23T08:54:43.043Z] [com.walrus.serviceundererred.configuartion.ExponentialBackoff] [clientInboundChannel-10] [56] [INFO ] waiting for 2384
+[2021-03-23T08:54:45.045Z] [com.walrus.serviceundererred.configuartion.BackendAPICall] [clientInboundChannel-10] [54] [INFO ] Retrying
+[2021-03-23T08:54:45.045Z] [com.walrus.serviceundererred.configuartion.ExponentialBackoff] [clientInboundChannel-10] [56] [INFO ] waiting for 2941
+[2021-03-23T08:54:48.048Z] [com.walrus.serviceundererred.configuartion.BackendAPICall] [clientInboundChannel-10] [54] [INFO ] Retrying
+[2021-03-23T08:54:48.048Z] [com.walrus.serviceundererred.configuartion.ExponentialBackoff] [clientInboundChannel-10] [56] [INFO ] waiting for 3234
+[2021-03-23T08:54:52.052Z] [com.walrus.serviceundererred.configuartion.BackendAPICall] [clientInboundChannel-10] [54] [INFO ] Retrying
+[2021-03-23T08:54:52.052Z] [com.walrus.serviceundererred.configuartion.ExponentialBackoff] [clientInboundChannel-10] [56] [INFO ] waiting for 4189
+[2021-03-23T08:54:56.056Z] [com.walrus.serviceundererred.configuartion.BackendAPICall] [clientInboundChannel-10] [54] [INFO ] Retrying
+[2021-03-23T08:54:56.056Z] [com.walrus.serviceundererred.configuartion.ExponentialBackoff] [clientInboundChannel-10] [56] [INFO ] waiting for 4978
+[2021-03-23T08:54:56.056Z] [org.springframework.web.socket.config.WebSocketMessageBrokerStats] [MessageBroker-2] [126] [INFO ] WebSocketSession[1 current WS(1)-HttpStream(0)-HttpPoll(0), 1 total, 0 closed abnormally (0 connect failure, 0 send limit, 0 transport error)], stompSubProtocol[processed CONNECT(1)-CONNECTED(1)-DISCONNECT(0)], stompBrokerRelay[null], inboundChannel[pool size = 12, active threads = 1, queued tasks = 0, completed tasks = 11], outboundChannel[pool size = 16, active threads = 0, queued tasks = 0, completed tasks = 20], sockJsScheduler[pool size = 8, active threads = 1, queued tasks = 2, completed tasks = 10]
+[2021-03-23T08:55:01.001Z] [com.walrus.serviceundererred.configuartion.BackendAPICall] [clientInboundChannel-10] [54] [INFO ] Retrying
+[2021-03-23T08:55:01.001Z] [com.walrus.serviceundererred.configuartion.ExponentialBackoff] [clientInboundChannel-10] [56] [INFO ] waiting for 5588
+[2021-03-23T08:55:06.006Z] [com.walrus.serviceundererred.configuartion.BackendAPICall] [clientInboundChannel-10] [54] [INFO ] Retrying
+[2021-03-23T08:55:06.006Z] [com.walrus.serviceundererred.configuartion.ExponentialBackoff] [clientInboundChannel-10] [44] [INFO ] API Call Failed
+[2021-03-23T08:55:06.006Z] [com.walrus.serviceundererred.configuartion.ExponentialBackoff] [clientInboundChannel-10] [56] [INFO ] waiting for 5658
+[2021-03-23T08:55:12.012Z] [com.walrus.serviceundererred.configuartion.BackendAPICall] [clientInboundChannel-10] [67] [WARN ] exceeded retried stopping backoff
+[2021-03-23T08:55:45.045Z] [com.walrus.serviceundererred.ServiceundererredApplication] [main] [14] [INFO ] Starting Server
+[2021-03-23T08:55:46.046Z] [org.springframework.boot.StartupInfoLogger] [main] [55] [INFO ] Starting ServiceundererredApplication using Java 13.0.1 on Shithanshu with PID 28624 (C:\Users\SHITH\Desktop\Project\java\walrus\serviceundererred\target\classes started by SHITH in C:\Users\SHITH\Desktop\Project\java\walrus\serviceundererred)
+[2021-03-23T08:55:46.046Z] [org.springframework.boot.SpringApplication] [main] [662] [INFO ] No active profile set, falling back to default profiles: default
+[2021-03-23T08:55:48.048Z] [org.springframework.boot.web.embedded.tomcat.TomcatWebServer] [main] [108] [INFO ] Tomcat initialized with port(s): 8090 (http)
+[2021-03-23T08:55:48.048Z] [org.apache.juli.logging.DirectJDKLog] [main] [173] [INFO ] Initializing ProtocolHandler ["http-nio-8090"]
+[2021-03-23T08:55:48.048Z] [org.apache.juli.logging.DirectJDKLog] [main] [173] [INFO ] Starting service [Tomcat]
+[2021-03-23T08:55:48.048Z] [org.apache.juli.logging.DirectJDKLog] [main] [173] [INFO ] Starting Servlet engine: [Apache Tomcat/9.0.44]
+[2021-03-23T08:55:48.048Z] [org.apache.juli.logging.DirectJDKLog] [main] [173] [INFO ] Initializing Spring embedded WebApplicationContext
+[2021-03-23T08:55:48.048Z] [org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext] [main] [289] [INFO ] Root WebApplicationContext: initialization completed in 1775 ms
+[2021-03-23T08:55:48.048Z] [org.springframework.scheduling.concurrent.ExecutorConfigurationSupport] [main] [181] [INFO ] Initializing ExecutorService 'clientInboundChannelExecutor'
+[2021-03-23T08:55:48.048Z] [org.springframework.scheduling.concurrent.ExecutorConfigurationSupport] [main] [181] [INFO ] Initializing ExecutorService 'clientOutboundChannelExecutor'
+[2021-03-23T08:55:48.048Z] [org.springframework.scheduling.concurrent.ExecutorConfigurationSupport] [main] [181] [INFO ] Initializing ExecutorService 'brokerChannelExecutor'
+[2021-03-23T08:55:48.048Z] [org.springframework.scheduling.concurrent.ExecutorConfigurationSupport] [main] [181] [INFO ] Initializing ExecutorService 'messageBrokerTaskScheduler'
+[2021-03-23T08:55:48.048Z] [org.springframework.boot.autoconfigure.web.servlet.WelcomePageHandlerMapping] [main] [53] [INFO ] Adding welcome page: class path resource [static/index.html]
+[2021-03-23T08:55:49.049Z] [org.apache.juli.logging.DirectJDKLog] [main] [173] [INFO ] Starting ProtocolHandler ["http-nio-8090"]
+[2021-03-23T08:55:49.049Z] [org.springframework.boot.web.embedded.tomcat.TomcatWebServer] [main] [220] [INFO ] Tomcat started on port(s): 8090 (http) with context path ''
+[2021-03-23T08:55:49.049Z] [org.springframework.core.log.CompositeLog] [main] [137] [INFO ] Starting...
+[2021-03-23T08:55:49.049Z] [org.springframework.core.log.CompositeLog] [main] [137] [INFO ] BrokerAvailabilityEvent[available=true, SimpleBrokerMessageHandler [org.springframework.messaging.simp.broker.DefaultSubscriptionRegistry@2d55e826]]
+[2021-03-23T08:55:49.049Z] [org.springframework.core.log.CompositeLog] [main] [137] [INFO ] Started.
+[2021-03-23T08:55:49.049Z] [org.springframework.boot.StartupInfoLogger] [main] [61] [INFO ] Started ServiceundererredApplication in 3.519 seconds (JVM running for 4.175)
+[2021-03-23T08:56:03.003Z] [org.apache.juli.logging.DirectJDKLog] [http-nio-8090-exec-1] [173] [INFO ] Initializing Spring DispatcherServlet 'dispatcherServlet'
+[2021-03-23T08:56:03.003Z] [org.springframework.web.servlet.FrameworkServlet] [http-nio-8090-exec-1] [525] [INFO ] Initializing Servlet 'dispatcherServlet'
+[2021-03-23T08:56:03.003Z] [org.springframework.web.servlet.FrameworkServlet] [http-nio-8090-exec-1] [547] [INFO ] Completed initialization in 1 ms
+[2021-03-23T08:56:07.007Z] [com.walrus.serviceundererred.api.RequestResponse] [clientInboundChannel-7] [24] [INFO ] Recieved request to start API Call
+[2021-03-23T08:56:07.007Z] [com.walrus.serviceundererred.configuartion.BackendAPICall] [clientInboundChannel-7] [55] [INFO ] Retrying
+[2021-03-23T08:56:07.007Z] [com.walrus.serviceundererred.configuartion.ExponentialBackoff] [clientInboundChannel-7] [56] [INFO ] waiting for 1000
+[2021-03-23T08:56:08.008Z] [com.walrus.serviceundererred.configuartion.BackendAPICall] [clientInboundChannel-7] [55] [INFO ] Retrying
+[2021-03-23T08:56:08.008Z] [com.walrus.serviceundererred.configuartion.ExponentialBackoff] [clientInboundChannel-7] [56] [INFO ] waiting for 1518
+[2021-03-23T08:56:09.009Z] [com.walrus.serviceundererred.configuartion.BackendAPICall] [clientInboundChannel-7] [55] [INFO ] Retrying
+[2021-03-23T08:56:09.009Z] [com.walrus.serviceundererred.configuartion.ExponentialBackoff] [clientInboundChannel-7] [56] [INFO ] waiting for 2430
+[2021-03-23T08:56:12.012Z] [com.walrus.serviceundererred.configuartion.BackendAPICall] [clientInboundChannel-7] [55] [INFO ] Retrying
+[2021-03-23T08:56:12.012Z] [com.walrus.serviceundererred.configuartion.ExponentialBackoff] [clientInboundChannel-7] [56] [INFO ] waiting for 3282
+[2021-03-23T08:56:15.015Z] [com.walrus.serviceundererred.configuartion.BackendAPICall] [clientInboundChannel-7] [55] [INFO ] Retrying
+[2021-03-23T08:56:15.015Z] [com.walrus.serviceundererred.configuartion.ExponentialBackoff] [clientInboundChannel-7] [56] [INFO ] waiting for 3600
+[2021-03-23T08:56:19.019Z] [com.walrus.serviceundererred.configuartion.BackendAPICall] [clientInboundChannel-7] [55] [INFO ] Retrying
+[2021-03-23T08:56:19.019Z] [com.walrus.serviceundererred.configuartion.ExponentialBackoff] [clientInboundChannel-7] [56] [INFO ] waiting for 4168
+[2021-03-23T08:56:23.023Z] [com.walrus.serviceundererred.configuartion.BackendAPICall] [clientInboundChannel-7] [55] [INFO ] Retrying
+[2021-03-23T08:56:23.023Z] [com.walrus.serviceundererred.configuartion.ExponentialBackoff] [clientInboundChannel-7] [56] [INFO ] waiting for 4895
+[2021-03-23T08:56:28.028Z] [com.walrus.serviceundererred.configuartion.BackendAPICall] [clientInboundChannel-7] [55] [INFO ] Retrying
+[2021-03-23T08:56:28.028Z] [com.walrus.serviceundererred.configuartion.ExponentialBackoff] [clientInboundChannel-7] [56] [INFO ] waiting for 5316
+[2021-03-23T08:56:33.033Z] [com.walrus.serviceundererred.configuartion.BackendAPICall] [clientInboundChannel-7] [55] [INFO ] Retrying
+[2021-03-23T08:56:33.033Z] [com.walrus.serviceundererred.configuartion.ExponentialBackoff] [clientInboundChannel-7] [56] [INFO ] waiting for 5910
+[2021-03-23T08:56:39.039Z] [com.walrus.serviceundererred.configuartion.BackendAPICall] [clientInboundChannel-7] [55] [INFO ] Retrying
+[2021-03-23T08:56:39.039Z] [com.walrus.serviceundererred.configuartion.ExponentialBackoff] [clientInboundChannel-7] [44] [INFO ] API Call Failed
+[2021-03-23T08:56:39.039Z] [com.walrus.serviceundererred.configuartion.ExponentialBackoff] [clientInboundChannel-7] [56] [INFO ] waiting for 6376
+[2021-03-23T08:56:45.045Z] [com.walrus.serviceundererred.configuartion.BackendAPICall] [clientInboundChannel-7] [68] [WARN ] exceeded retried stopping backoff
+[2021-03-23T08:56:51.051Z] [com.walrus.serviceundererred.ServiceundererredApplication] [main] [14] [INFO ] Starting Server
+[2021-03-23T08:56:51.051Z] [org.springframework.boot.StartupInfoLogger] [main] [55] [INFO ] Starting ServiceundererredApplication using Java 13.0.1 on Shithanshu with PID 29104 (C:\Users\SHITH\Desktop\Project\java\walrus\serviceundererred\target\classes started by SHITH in C:\Users\SHITH\Desktop\Project\java\walrus\serviceundererred)
+[2021-03-23T08:56:51.051Z] [org.springframework.boot.SpringApplication] [main] [662] [INFO ] No active profile set, falling back to default profiles: default
+[2021-03-23T08:56:53.053Z] [org.springframework.boot.web.embedded.tomcat.TomcatWebServer] [main] [108] [INFO ] Tomcat initialized with port(s): 8090 (http)
+[2021-03-23T08:56:53.053Z] [org.apache.juli.logging.DirectJDKLog] [main] [173] [INFO ] Initializing ProtocolHandler ["http-nio-8090"]
+[2021-03-23T08:56:53.053Z] [org.apache.juli.logging.DirectJDKLog] [main] [173] [INFO ] Starting service [Tomcat]
+[2021-03-23T08:56:53.053Z] [org.apache.juli.logging.DirectJDKLog] [main] [173] [INFO ] Starting Servlet engine: [Apache Tomcat/9.0.44]
+[2021-03-23T08:56:53.053Z] [org.apache.juli.logging.DirectJDKLog] [main] [173] [INFO ] Initializing Spring embedded WebApplicationContext
+[2021-03-23T08:56:53.053Z] [org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext] [main] [289] [INFO ] Root WebApplicationContext: initialization completed in 1775 ms
+[2021-03-23T08:56:53.053Z] [org.springframework.scheduling.concurrent.ExecutorConfigurationSupport] [main] [181] [INFO ] Initializing ExecutorService 'clientInboundChannelExecutor'
+[2021-03-23T08:56:53.053Z] [org.springframework.scheduling.concurrent.ExecutorConfigurationSupport] [main] [181] [INFO ] Initializing ExecutorService 'clientOutboundChannelExecutor'
+[2021-03-23T08:56:53.053Z] [org.springframework.scheduling.concurrent.ExecutorConfigurationSupport] [main] [181] [INFO ] Initializing ExecutorService 'brokerChannelExecutor'
+[2021-03-23T08:56:53.053Z] [org.springframework.scheduling.concurrent.ExecutorConfigurationSupport] [main] [181] [INFO ] Initializing ExecutorService 'messageBrokerTaskScheduler'
+[2021-03-23T08:56:54.054Z] [org.springframework.boot.autoconfigure.web.servlet.WelcomePageHandlerMapping] [main] [53] [INFO ] Adding welcome page: class path resource [static/index.html]
+[2021-03-23T08:56:54.054Z] [org.apache.juli.logging.DirectJDKLog] [main] [173] [INFO ] Starting ProtocolHandler ["http-nio-8090"]
+[2021-03-23T08:56:54.054Z] [org.springframework.boot.web.embedded.tomcat.TomcatWebServer] [main] [220] [INFO ] Tomcat started on port(s): 8090 (http) with context path ''
+[2021-03-23T08:56:54.054Z] [org.springframework.core.log.CompositeLog] [main] [137] [INFO ] Starting...
+[2021-03-23T08:56:54.054Z] [org.springframework.core.log.CompositeLog] [main] [137] [INFO ] BrokerAvailabilityEvent[available=true, SimpleBrokerMessageHandler [org.springframework.messaging.simp.broker.DefaultSubscriptionRegistry@692dba54]]
+[2021-03-23T08:56:54.054Z] [org.springframework.core.log.CompositeLog] [main] [137] [INFO ] Started.
+[2021-03-23T08:56:54.054Z] [org.springframework.boot.StartupInfoLogger] [main] [61] [INFO ] Started ServiceundererredApplication in 3.668 seconds (JVM running for 4.36)
+[2021-03-23T08:56:58.058Z] [org.apache.juli.logging.DirectJDKLog] [http-nio-8090-exec-1] [173] [INFO ] Initializing Spring DispatcherServlet 'dispatcherServlet'
+[2021-03-23T08:56:58.058Z] [org.springframework.web.servlet.FrameworkServlet] [http-nio-8090-exec-1] [525] [INFO ] Initializing Servlet 'dispatcherServlet'
+[2021-03-23T08:56:58.058Z] [org.springframework.web.servlet.FrameworkServlet] [http-nio-8090-exec-1] [547] [INFO ] Completed initialization in 1 ms
+[2021-03-23T08:57:02.002Z] [com.walrus.serviceundererred.api.RequestResponse] [clientInboundChannel-7] [24] [INFO ] Recieved request to start API Call
+[2021-03-23T08:57:02.002Z] [com.walrus.serviceundererred.configuartion.BackendAPICall] [clientInboundChannel-7] [55] [INFO ] Retrying
+[2021-03-23T08:57:02.002Z] [com.walrus.serviceundererred.configuartion.ExponentialBackoff] [clientInboundChannel-7] [56] [INFO ] waiting for 1000
+[2021-03-23T08:57:03.003Z] [com.walrus.serviceundererred.configuartion.BackendAPICall] [clientInboundChannel-7] [55] [INFO ] Retrying
+[2021-03-23T08:57:03.003Z] [com.walrus.serviceundererred.configuartion.ExponentialBackoff] [clientInboundChannel-7] [56] [INFO ] waiting for 1086
+[2021-03-23T08:57:04.004Z] [com.walrus.serviceundererred.configuartion.BackendAPICall] [clientInboundChannel-7] [55] [INFO ] Retrying
+[2021-03-23T08:57:04.004Z] [com.walrus.serviceundererred.configuartion.ExponentialBackoff] [clientInboundChannel-7] [56] [INFO ] waiting for 1856
+[2021-03-23T08:57:06.006Z] [com.walrus.serviceundererred.configuartion.BackendAPICall] [clientInboundChannel-7] [55] [INFO ] Retrying
+[2021-03-23T08:57:06.006Z] [com.walrus.serviceundererred.configuartion.ExponentialBackoff] [clientInboundChannel-7] [56] [INFO ] waiting for 2788
+[2021-03-23T08:57:09.009Z] [com.walrus.serviceundererred.configuartion.BackendAPICall] [clientInboundChannel-7] [55] [INFO ] Retrying
+[2021-03-23T08:57:09.009Z] [com.walrus.serviceundererred.configuartion.ExponentialBackoff] [clientInboundChannel-7] [56] [INFO ] waiting for 3534
+[2021-03-23T08:57:13.013Z] [com.walrus.serviceundererred.configuartion.BackendAPICall] [clientInboundChannel-7] [55] [INFO ] Retrying
+[2021-03-23T08:57:13.013Z] [com.walrus.serviceundererred.configuartion.ExponentialBackoff] [clientInboundChannel-7] [56] [INFO ] waiting for 3576
+[2021-03-23T08:57:16.016Z] [com.walrus.serviceundererred.configuartion.BackendAPICall] [clientInboundChannel-7] [55] [INFO ] Retrying
+[2021-03-23T08:57:16.016Z] [com.walrus.serviceundererred.configuartion.ExponentialBackoff] [clientInboundChannel-7] [56] [INFO ] waiting for 3730
+[2021-03-23T08:57:20.020Z] [com.walrus.serviceundererred.configuartion.BackendAPICall] [clientInboundChannel-7] [55] [INFO ] Retrying
+[2021-03-23T08:57:20.020Z] [com.walrus.serviceundererred.configuartion.ExponentialBackoff] [clientInboundChannel-7] [56] [INFO ] waiting for 4539
+[2021-03-23T08:57:24.024Z] [com.walrus.serviceundererred.configuartion.BackendAPICall] [clientInboundChannel-7] [55] [INFO ] Retrying
+[2021-03-23T08:57:24.024Z] [com.walrus.serviceundererred.configuartion.ExponentialBackoff] [clientInboundChannel-7] [56] [INFO ] waiting for 4808
+[2021-03-23T08:57:29.029Z] [com.walrus.serviceundererred.configuartion.BackendAPICall] [clientInboundChannel-7] [55] [INFO ] Retrying
+[2021-03-23T08:57:29.029Z] [com.walrus.serviceundererred.configuartion.ExponentialBackoff] [clientInboundChannel-7] [44] [INFO ] API Call Failed
+[2021-03-23T08:57:29.029Z] [com.walrus.serviceundererred.configuartion.ExponentialBackoff] [clientInboundChannel-7] [56] [INFO ] waiting for 5668
+[2021-03-23T08:57:35.035Z] [com.walrus.serviceundererred.configuartion.BackendAPICall] [clientInboundChannel-7] [68] [WARN ] exceeded retried stopping backoff
+[2021-03-23T08:57:53.053Z] [org.springframework.web.socket.config.WebSocketMessageBrokerStats] [MessageBroker-7] [126] [INFO ] WebSocketSession[1 current WS(1)-HttpStream(0)-HttpPoll(0), 1 total, 0 closed abnormally (0 connect failure, 0 send limit, 0 transport error)], stompSubProtocol[processed CONNECT(1)-CONNECTED(1)-DISCONNECT(0)], stompBrokerRelay[null], inboundChannel[pool size = 9, active threads = 0, queued tasks = 0, completed tasks = 9], outboundChannel[pool size = 12, active threads = 0, queued tasks = 0, completed tasks = 12], sockJsScheduler[pool size = 8, active threads = 1, queued tasks = 2, completed tasks = 11]
+[2021-03-23T09:00:09.009Z] [com.walrus.serviceundererred.ServiceundererredApplication] [main] [14] [INFO ] Starting Server
+[2021-03-23T09:00:10.010Z] [org.springframework.boot.StartupInfoLogger] [main] [55] [INFO ] Starting ServiceundererredApplication using Java 13.0.1 on Shithanshu with PID 15004 (C:\Users\SHITH\Desktop\Project\java\walrus\serviceundererred\target\classes started by SHITH in C:\Users\SHITH\Desktop\Project\java\walrus\serviceundererred)
+[2021-03-23T09:00:10.010Z] [org.springframework.boot.SpringApplication] [main] [662] [INFO ] No active profile set, falling back to default profiles: default
+[2021-03-23T09:00:12.012Z] [org.springframework.boot.web.embedded.tomcat.TomcatWebServer] [main] [108] [INFO ] Tomcat initialized with port(s): 8090 (http)
+[2021-03-23T09:00:12.012Z] [org.apache.juli.logging.DirectJDKLog] [main] [173] [INFO ] Initializing ProtocolHandler ["http-nio-8090"]
+[2021-03-23T09:00:12.012Z] [org.apache.juli.logging.DirectJDKLog] [main] [173] [INFO ] Starting service [Tomcat]
+[2021-03-23T09:00:12.012Z] [org.apache.juli.logging.DirectJDKLog] [main] [173] [INFO ] Starting Servlet engine: [Apache Tomcat/9.0.44]
+[2021-03-23T09:00:12.012Z] [org.apache.juli.logging.DirectJDKLog] [main] [173] [INFO ] Initializing Spring embedded WebApplicationContext
+[2021-03-23T09:00:12.012Z] [org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext] [main] [289] [INFO ] Root WebApplicationContext: initialization completed in 1733 ms
+[2021-03-23T09:00:12.012Z] [org.springframework.scheduling.concurrent.ExecutorConfigurationSupport] [main] [181] [INFO ] Initializing ExecutorService 'clientInboundChannelExecutor'
+[2021-03-23T09:00:12.012Z] [org.springframework.scheduling.concurrent.ExecutorConfigurationSupport] [main] [181] [INFO ] Initializing ExecutorService 'clientOutboundChannelExecutor'
+[2021-03-23T09:00:12.012Z] [org.springframework.scheduling.concurrent.ExecutorConfigurationSupport] [main] [181] [INFO ] Initializing ExecutorService 'brokerChannelExecutor'
+[2021-03-23T09:00:12.012Z] [org.springframework.scheduling.concurrent.ExecutorConfigurationSupport] [main] [181] [INFO ] Initializing ExecutorService 'messageBrokerTaskScheduler'
+[2021-03-23T09:00:12.012Z] [org.springframework.boot.autoconfigure.web.servlet.WelcomePageHandlerMapping] [main] [53] [INFO ] Adding welcome page: class path resource [static/index.html]
+[2021-03-23T09:00:13.013Z] [org.apache.juli.logging.DirectJDKLog] [main] [173] [INFO ] Starting ProtocolHandler ["http-nio-8090"]
+[2021-03-23T09:00:13.013Z] [org.springframework.boot.web.embedded.tomcat.TomcatWebServer] [main] [220] [INFO ] Tomcat started on port(s): 8090 (http) with context path ''
+[2021-03-23T09:00:13.013Z] [org.springframework.core.log.CompositeLog] [main] [137] [INFO ] Starting...
+[2021-03-23T09:00:13.013Z] [org.springframework.core.log.CompositeLog] [main] [137] [INFO ] BrokerAvailabilityEvent[available=true, SimpleBrokerMessageHandler [org.springframework.messaging.simp.broker.DefaultSubscriptionRegistry@48eb001a]]
+[2021-03-23T09:00:13.013Z] [org.springframework.core.log.CompositeLog] [main] [137] [INFO ] Started.
+[2021-03-23T09:00:13.013Z] [org.springframework.boot.StartupInfoLogger] [main] [61] [INFO ] Started ServiceundererredApplication in 3.617 seconds (JVM running for 4.276)
+[2021-03-23T09:00:19.019Z] [org.apache.juli.logging.DirectJDKLog] [http-nio-8090-exec-1] [173] [INFO ] Initializing Spring DispatcherServlet 'dispatcherServlet'
+[2021-03-23T09:00:19.019Z] [org.springframework.web.servlet.FrameworkServlet] [http-nio-8090-exec-1] [525] [INFO ] Initializing Servlet 'dispatcherServlet'
+[2021-03-23T09:00:19.019Z] [org.springframework.web.servlet.FrameworkServlet] [http-nio-8090-exec-1] [547] [INFO ] Completed initialization in 1 ms
+[2021-03-23T09:00:23.023Z] [com.walrus.serviceundererred.api.RequestResponse] [clientInboundChannel-7] [24] [INFO ] Recieved request to start API Call
+[2021-03-23T09:00:23.023Z] [com.walrus.serviceundererred.configuartion.BackendAPICall] [clientInboundChannel-7] [61] [INFO ] Retrying
+[2021-03-23T09:00:23.023Z] [com.walrus.serviceundererred.configuartion.ExponentialBackoff] [clientInboundChannel-7] [56] [INFO ] waiting for 1000
+[2021-03-23T09:00:24.024Z] [com.walrus.serviceundererred.configuartion.BackendAPICall] [clientInboundChannel-7] [61] [INFO ] Retrying
+[2021-03-23T09:00:24.024Z] [com.walrus.serviceundererred.configuartion.ExponentialBackoff] [clientInboundChannel-7] [56] [INFO ] waiting for 1983
+[2021-03-23T09:00:26.026Z] [com.walrus.serviceundererred.configuartion.BackendAPICall] [clientInboundChannel-7] [61] [INFO ] Retrying
+[2021-03-23T09:00:26.026Z] [com.walrus.serviceundererred.configuartion.ExponentialBackoff] [clientInboundChannel-7] [56] [INFO ] waiting for 2149
+[2021-03-23T09:00:28.028Z] [com.walrus.serviceundererred.configuartion.BackendAPICall] [clientInboundChannel-7] [61] [INFO ] Retrying
+[2021-03-23T09:00:28.028Z] [com.walrus.serviceundererred.configuartion.ExponentialBackoff] [clientInboundChannel-7] [56] [INFO ] waiting for 2238
+[2021-03-23T09:00:30.030Z] [com.walrus.serviceundererred.configuartion.BackendAPICall] [clientInboundChannel-7] [61] [INFO ] Retrying
+[2021-03-23T09:00:30.030Z] [com.walrus.serviceundererred.configuartion.ExponentialBackoff] [clientInboundChannel-7] [56] [INFO ] waiting for 2867
+[2021-03-23T09:00:33.033Z] [com.walrus.serviceundererred.configuartion.BackendAPICall] [clientInboundChannel-7] [61] [INFO ] Retrying
+[2021-03-23T09:00:33.033Z] [com.walrus.serviceundererred.configuartion.ExponentialBackoff] [clientInboundChannel-7] [56] [INFO ] waiting for 3119
+[2021-03-23T09:00:36.036Z] [com.walrus.serviceundererred.configuartion.ExponentialBackoff] [clientInboundChannel-7] [73] [INFO ] terminating retries
+[2021-03-23T09:00:36.036Z] [com.walrus.serviceundererred.configuartion.BackendAPICall] [clientInboundChannel-7] [68] [INFO ] message generated
+[2021-03-23T09:01:10.010Z] [com.walrus.serviceundererred.ServiceundererredApplication] [main] [14] [INFO ] Starting Server
+[2021-03-23T09:01:11.011Z] [org.springframework.boot.StartupInfoLogger] [main] [55] [INFO ] Starting ServiceundererredApplication using Java 13.0.1 on Shithanshu with PID 1520 (C:\Users\SHITH\Desktop\Project\java\walrus\serviceundererred\target\classes started by SHITH in C:\Users\SHITH\Desktop\Project\java\walrus\serviceundererred)
+[2021-03-23T09:01:11.011Z] [org.springframework.boot.SpringApplication] [main] [662] [INFO ] No active profile set, falling back to default profiles: default
+[2021-03-23T09:01:13.013Z] [org.springframework.boot.web.embedded.tomcat.TomcatWebServer] [main] [108] [INFO ] Tomcat initialized with port(s): 8090 (http)
+[2021-03-23T09:01:13.013Z] [org.apache.juli.logging.DirectJDKLog] [main] [173] [INFO ] Initializing ProtocolHandler ["http-nio-8090"]
+[2021-03-23T09:01:13.013Z] [org.apache.juli.logging.DirectJDKLog] [main] [173] [INFO ] Starting service [Tomcat]
+[2021-03-23T09:01:13.013Z] [org.apache.juli.logging.DirectJDKLog] [main] [173] [INFO ] Starting Servlet engine: [Apache Tomcat/9.0.44]
+[2021-03-23T09:01:13.013Z] [org.apache.juli.logging.DirectJDKLog] [main] [173] [INFO ] Initializing Spring embedded WebApplicationContext
+[2021-03-23T09:01:13.013Z] [org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext] [main] [289] [INFO ] Root WebApplicationContext: initialization completed in 1877 ms
+[2021-03-23T09:01:13.013Z] [org.springframework.scheduling.concurrent.ExecutorConfigurationSupport] [main] [181] [INFO ] Initializing ExecutorService 'clientInboundChannelExecutor'
+[2021-03-23T09:01:13.013Z] [org.springframework.scheduling.concurrent.ExecutorConfigurationSupport] [main] [181] [INFO ] Initializing ExecutorService 'clientOutboundChannelExecutor'
+[2021-03-23T09:01:13.013Z] [org.springframework.scheduling.concurrent.ExecutorConfigurationSupport] [main] [181] [INFO ] Initializing ExecutorService 'brokerChannelExecutor'
+[2021-03-23T09:01:13.013Z] [org.springframework.scheduling.concurrent.ExecutorConfigurationSupport] [main] [181] [INFO ] Initializing ExecutorService 'messageBrokerTaskScheduler'
+[2021-03-23T09:01:14.014Z] [org.springframework.boot.autoconfigure.web.servlet.WelcomePageHandlerMapping] [main] [53] [INFO ] Adding welcome page: class path resource [static/index.html]
+[2021-03-23T09:01:14.014Z] [org.apache.juli.logging.DirectJDKLog] [main] [173] [INFO ] Starting ProtocolHandler ["http-nio-8090"]
+[2021-03-23T09:01:14.014Z] [org.springframework.boot.web.embedded.tomcat.TomcatWebServer] [main] [220] [INFO ] Tomcat started on port(s): 8090 (http) with context path ''
+[2021-03-23T09:01:14.014Z] [org.springframework.core.log.CompositeLog] [main] [137] [INFO ] Starting...
+[2021-03-23T09:01:14.014Z] [org.springframework.core.log.CompositeLog] [main] [137] [INFO ] BrokerAvailabilityEvent[available=true, SimpleBrokerMessageHandler [org.springframework.messaging.simp.broker.DefaultSubscriptionRegistry@329548d0]]
+[2021-03-23T09:01:14.014Z] [org.springframework.core.log.CompositeLog] [main] [137] [INFO ] Started.
+[2021-03-23T09:01:14.014Z] [org.springframework.boot.StartupInfoLogger] [main] [61] [INFO ] Started ServiceundererredApplication in 3.932 seconds (JVM running for 4.573)
+[2021-03-23T09:01:15.015Z] [org.apache.juli.logging.DirectJDKLog] [http-nio-8090-exec-1] [173] [INFO ] Initializing Spring DispatcherServlet 'dispatcherServlet'
+[2021-03-23T09:01:15.015Z] [org.springframework.web.servlet.FrameworkServlet] [http-nio-8090-exec-1] [525] [INFO ] Initializing Servlet 'dispatcherServlet'
+[2021-03-23T09:01:15.015Z] [org.springframework.web.servlet.FrameworkServlet] [http-nio-8090-exec-1] [547] [INFO ] Completed initialization in 1 ms
+[2021-03-23T09:01:22.022Z] [com.walrus.serviceundererred.api.RequestResponse] [clientInboundChannel-7] [24] [INFO ] Recieved request to start API Call
+[2021-03-23T09:01:24.024Z] [com.walrus.serviceundererred.configuartion.BackendAPICall] [clientInboundChannel-7] [64] [INFO ] Retrying
+[2021-03-23T09:01:24.024Z] [com.walrus.serviceundererred.configuartion.ExponentialBackoff] [clientInboundChannel-7] [56] [INFO ] waiting for 1000
+[2021-03-23T09:01:27.027Z] [com.walrus.serviceundererred.configuartion.BackendAPICall] [clientInboundChannel-7] [64] [INFO ] Retrying
+[2021-03-23T09:01:27.027Z] [com.walrus.serviceundererred.configuartion.ExponentialBackoff] [clientInboundChannel-7] [56] [INFO ] waiting for 1105
+[2021-03-23T09:01:30.030Z] [com.walrus.serviceundererred.configuartion.BackendAPICall] [clientInboundChannel-7] [64] [INFO ] Retrying
+[2021-03-23T09:01:30.030Z] [com.walrus.serviceundererred.configuartion.ExponentialBackoff] [clientInboundChannel-7] [56] [INFO ] waiting for 1268
+[2021-03-23T09:01:33.033Z] [com.walrus.serviceundererred.configuartion.BackendAPICall] [clientInboundChannel-7] [64] [INFO ] Retrying
+[2021-03-23T09:01:33.033Z] [com.walrus.serviceundererred.configuartion.ExponentialBackoff] [clientInboundChannel-7] [56] [INFO ] waiting for 1319
+[2021-03-23T09:01:37.037Z] [com.walrus.serviceundererred.configuartion.BackendAPICall] [clientInboundChannel-7] [64] [INFO ] Retrying
+[2021-03-23T09:01:37.037Z] [com.walrus.serviceundererred.configuartion.ExponentialBackoff] [clientInboundChannel-7] [56] [INFO ] waiting for 2030
+[2021-03-23T09:01:41.041Z] [com.walrus.serviceundererred.configuartion.BackendAPICall] [clientInboundChannel-7] [64] [INFO ] Retrying
+[2021-03-23T09:01:41.041Z] [com.walrus.serviceundererred.configuartion.ExponentialBackoff] [clientInboundChannel-7] [56] [INFO ] waiting for 2784
+[2021-03-23T09:01:46.046Z] [com.walrus.serviceundererred.configuartion.ExponentialBackoff] [clientInboundChannel-7] [73] [INFO ] terminating retries
+[2021-03-23T09:01:46.046Z] [com.walrus.serviceundererred.configuartion.BackendAPICall] [clientInboundChannel-7] [71] [INFO ] message generated
+[2021-03-23T09:02:13.013Z] [org.springframework.web.socket.config.WebSocketMessageBrokerStats] [MessageBroker-6] [126] [INFO ] WebSocketSession[1 current WS(1)-HttpStream(0)-HttpPoll(0), 1 total, 0 closed abnormally (0 connect failure, 0 send limit, 0 transport error)], stompSubProtocol[processed CONNECT(1)-CONNECTED(1)-DISCONNECT(0)], stompBrokerRelay[null], inboundChannel[pool size = 9, active threads = 0, queued tasks = 0, completed tasks = 9], outboundChannel[pool size = 8, active threads = 0, queued tasks = 0, completed tasks = 8], sockJsScheduler[pool size = 8, active threads = 1, queued tasks = 2, completed tasks = 13]
+[2021-03-23T09:06:56.056Z] [com.walrus.serviceundererred.ServiceundererredApplication] [main] [14] [INFO ] Starting Server
+[2021-03-23T09:06:57.057Z] [org.springframework.boot.StartupInfoLogger] [main] [55] [INFO ] Starting ServiceundererredApplication using Java 13.0.1 on Shithanshu with PID 22160 (C:\Users\SHITH\Desktop\Project\java\walrus\serviceundererred\target\classes started by SHITH in C:\Users\SHITH\Desktop\Project\java\walrus\serviceundererred)
+[2021-03-23T09:06:57.057Z] [org.springframework.boot.SpringApplication] [main] [662] [INFO ] No active profile set, falling back to default profiles: default
+[2021-03-23T09:06:59.059Z] [org.springframework.boot.web.embedded.tomcat.TomcatWebServer] [main] [108] [INFO ] Tomcat initialized with port(s): 8090 (http)
+[2021-03-23T09:06:59.059Z] [org.apache.juli.logging.DirectJDKLog] [main] [173] [INFO ] Initializing ProtocolHandler ["http-nio-8090"]
+[2021-03-23T09:06:59.059Z] [org.apache.juli.logging.DirectJDKLog] [main] [173] [INFO ] Starting service [Tomcat]
+[2021-03-23T09:06:59.059Z] [org.apache.juli.logging.DirectJDKLog] [main] [173] [INFO ] Starting Servlet engine: [Apache Tomcat/9.0.44]
+[2021-03-23T09:06:59.059Z] [org.apache.juli.logging.DirectJDKLog] [main] [173] [INFO ] Initializing Spring embedded WebApplicationContext
+[2021-03-23T09:06:59.059Z] [org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext] [main] [289] [INFO ] Root WebApplicationContext: initialization completed in 1923 ms
+[2021-03-23T09:06:59.059Z] [org.springframework.scheduling.concurrent.ExecutorConfigurationSupport] [main] [181] [INFO ] Initializing ExecutorService 'clientInboundChannelExecutor'
+[2021-03-23T09:06:59.059Z] [org.springframework.scheduling.concurrent.ExecutorConfigurationSupport] [main] [181] [INFO ] Initializing ExecutorService 'clientOutboundChannelExecutor'
+[2021-03-23T09:06:59.059Z] [org.springframework.scheduling.concurrent.ExecutorConfigurationSupport] [main] [181] [INFO ] Initializing ExecutorService 'brokerChannelExecutor'
+[2021-03-23T09:06:59.059Z] [org.springframework.scheduling.concurrent.ExecutorConfigurationSupport] [main] [181] [INFO ] Initializing ExecutorService 'messageBrokerTaskScheduler'
+[2021-03-23T09:07:00.000Z] [org.springframework.boot.autoconfigure.web.servlet.WelcomePageHandlerMapping] [main] [53] [INFO ] Adding welcome page: class path resource [static/index.html]
+[2021-03-23T09:07:00.000Z] [org.apache.juli.logging.DirectJDKLog] [main] [173] [INFO ] Starting ProtocolHandler ["http-nio-8090"]
+[2021-03-23T09:07:00.000Z] [org.springframework.boot.web.embedded.tomcat.TomcatWebServer] [main] [220] [INFO ] Tomcat started on port(s): 8090 (http) with context path ''
+[2021-03-23T09:07:00.000Z] [org.springframework.core.log.CompositeLog] [main] [137] [INFO ] Starting...
+[2021-03-23T09:07:00.000Z] [org.springframework.core.log.CompositeLog] [main] [137] [INFO ] BrokerAvailabilityEvent[available=true, SimpleBrokerMessageHandler [org.springframework.messaging.simp.broker.DefaultSubscriptionRegistry@37854b34]]
+[2021-03-23T09:07:00.000Z] [org.springframework.core.log.CompositeLog] [main] [137] [INFO ] Started.
+[2021-03-23T09:07:00.000Z] [org.springframework.boot.StartupInfoLogger] [main] [61] [INFO ] Started ServiceundererredApplication in 4.012 seconds (JVM running for 4.676)
+[2021-03-23T09:07:59.059Z] [org.springframework.web.socket.config.WebSocketMessageBrokerStats] [MessageBroker-1] [126] [INFO ] WebSocketSession[0 current WS(0)-HttpStream(0)-HttpPoll(0), 0 total, 0 closed abnormally (0 connect failure, 0 send limit, 0 transport error)], stompSubProtocol[processed CONNECT(0)-CONNECTED(0)-DISCONNECT(0)], stompBrokerRelay[null], inboundChannel[pool size = 0, active threads = 0, queued tasks = 0, completed tasks = 0], outboundChannel[pool size = 0, active threads = 0, queued tasks = 0, completed tasks = 0], sockJsScheduler[pool size = 1, active threads = 1, queued tasks = 0, completed tasks = 0]
+[2021-03-23T09:08:13.013Z] [org.apache.juli.logging.DirectJDKLog] [http-nio-8090-exec-1] [173] [INFO ] Initializing Spring DispatcherServlet 'dispatcherServlet'
+[2021-03-23T09:08:13.013Z] [org.springframework.web.servlet.FrameworkServlet] [http-nio-8090-exec-1] [525] [INFO ] Initializing Servlet 'dispatcherServlet'
+[2021-03-23T09:08:13.013Z] [org.springframework.web.servlet.FrameworkServlet] [http-nio-8090-exec-1] [547] [INFO ] Completed initialization in 1 ms
+[2021-03-23T09:08:18.018Z] [com.walrus.serviceundererred.api.RequestResponse] [clientInboundChannel-7] [24] [INFO ] Recieved request to start API Call
+[2021-03-23T09:08:18.018Z] [com.walrus.serviceundererred.configuartion.ExponentialBackoff] [clientInboundChannel-7] [73] [INFO ] terminating retries
+[2021-03-23T09:08:18.018Z] [com.walrus.serviceundererred.configuartion.BackendAPICall] [clientInboundChannel-7] [73] [INFO ] message generated
+[2021-03-23T09:09:28.028Z] [com.walrus.serviceundererred.ServiceundererredApplication] [main] [14] [INFO ] Starting Server
+[2021-03-23T09:09:28.028Z] [org.springframework.boot.StartupInfoLogger] [main] [55] [INFO ] Starting ServiceundererredApplication using Java 13.0.1 on Shithanshu with PID 14320 (C:\Users\SHITH\Desktop\Project\java\walrus\serviceundererred\target\classes started by SHITH in C:\Users\SHITH\Desktop\Project\java\walrus\serviceundererred)
+[2021-03-23T09:09:28.028Z] [org.springframework.boot.SpringApplication] [main] [662] [INFO ] No active profile set, falling back to default profiles: default
+[2021-03-23T09:09:31.031Z] [org.springframework.boot.web.embedded.tomcat.TomcatWebServer] [main] [108] [INFO ] Tomcat initialized with port(s): 8090 (http)
+[2021-03-23T09:09:31.031Z] [org.apache.juli.logging.DirectJDKLog] [main] [173] [INFO ] Initializing ProtocolHandler ["http-nio-8090"]
+[2021-03-23T09:09:31.031Z] [org.apache.juli.logging.DirectJDKLog] [main] [173] [INFO ] Starting service [Tomcat]
+[2021-03-23T09:09:31.031Z] [org.apache.juli.logging.DirectJDKLog] [main] [173] [INFO ] Starting Servlet engine: [Apache Tomcat/9.0.44]
+[2021-03-23T09:09:31.031Z] [org.apache.juli.logging.DirectJDKLog] [main] [173] [INFO ] Initializing Spring embedded WebApplicationContext
+[2021-03-23T09:09:31.031Z] [org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext] [main] [289] [INFO ] Root WebApplicationContext: initialization completed in 2221 ms
+[2021-03-23T09:09:31.031Z] [org.springframework.scheduling.concurrent.ExecutorConfigurationSupport] [main] [181] [INFO ] Initializing ExecutorService 'clientInboundChannelExecutor'
+[2021-03-23T09:09:31.031Z] [org.springframework.scheduling.concurrent.ExecutorConfigurationSupport] [main] [181] [INFO ] Initializing ExecutorService 'clientOutboundChannelExecutor'
+[2021-03-23T09:09:31.031Z] [org.springframework.scheduling.concurrent.ExecutorConfigurationSupport] [main] [181] [INFO ] Initializing ExecutorService 'brokerChannelExecutor'
+[2021-03-23T09:09:31.031Z] [org.springframework.scheduling.concurrent.ExecutorConfigurationSupport] [main] [181] [INFO ] Initializing ExecutorService 'messageBrokerTaskScheduler'
+[2021-03-23T09:09:31.031Z] [org.springframework.boot.autoconfigure.web.servlet.WelcomePageHandlerMapping] [main] [53] [INFO ] Adding welcome page: class path resource [static/index.html]
+[2021-03-23T09:09:32.032Z] [org.apache.juli.logging.DirectJDKLog] [main] [173] [INFO ] Starting ProtocolHandler ["http-nio-8090"]
+[2021-03-23T09:09:32.032Z] [org.springframework.boot.web.embedded.tomcat.TomcatWebServer] [main] [220] [INFO ] Tomcat started on port(s): 8090 (http) with context path ''
+[2021-03-23T09:09:32.032Z] [org.springframework.core.log.CompositeLog] [main] [137] [INFO ] Starting...
+[2021-03-23T09:09:32.032Z] [org.springframework.core.log.CompositeLog] [main] [137] [INFO ] BrokerAvailabilityEvent[available=true, SimpleBrokerMessageHandler [org.springframework.messaging.simp.broker.DefaultSubscriptionRegistry@6f8aba08]]
+[2021-03-23T09:09:32.032Z] [org.springframework.core.log.CompositeLog] [main] [137] [INFO ] Started.
+[2021-03-23T09:09:32.032Z] [org.springframework.boot.StartupInfoLogger] [main] [61] [INFO ] Started ServiceundererredApplication in 4.335 seconds (JVM running for 5.115)
+[2021-03-23T09:10:31.031Z] [org.springframework.web.socket.config.WebSocketMessageBrokerStats] [MessageBroker-1] [126] [INFO ] WebSocketSession[0 current WS(0)-HttpStream(0)-HttpPoll(0), 0 total, 0 closed abnormally (0 connect failure, 0 send limit, 0 transport error)], stompSubProtocol[processed CONNECT(0)-CONNECTED(0)-DISCONNECT(0)], stompBrokerRelay[null], inboundChannel[pool size = 0, active threads = 0, queued tasks = 0, completed tasks = 0], outboundChannel[pool size = 0, active threads = 0, queued tasks = 0, completed tasks = 0], sockJsScheduler[pool size = 1, active threads = 1, queued tasks = 0, completed tasks = 0]
+[2021-03-23T09:32:24.024Z] [org.apache.juli.logging.DirectJDKLog] [http-nio-8090-exec-1] [173] [INFO ] Initializing Spring DispatcherServlet 'dispatcherServlet'
+[2021-03-23T09:32:24.024Z] [org.springframework.web.servlet.FrameworkServlet] [http-nio-8090-exec-1] [525] [INFO ] Initializing Servlet 'dispatcherServlet'
+[2021-03-23T09:32:24.024Z] [org.springframework.web.servlet.FrameworkServlet] [http-nio-8090-exec-1] [547] [INFO ] Completed initialization in 30 ms
+[2021-03-23T09:32:29.029Z] [com.walrus.serviceundererred.api.RequestResponse] [clientInboundChannel-7] [24] [INFO ] Recieved request to start API Call
+[2021-03-23T09:32:32.032Z] [com.walrus.serviceundererred.configuartion.BackendAPICall] [clientInboundChannel-7] [101] [INFO ] API Call responded with 504
+[2021-03-23T09:32:32.032Z] [com.walrus.serviceundererred.configuartion.BackendAPICall] [clientInboundChannel-7] [66] [INFO ] Retrying
+[2021-03-23T09:32:32.032Z] [com.walrus.serviceundererred.configuartion.ExponentialBackoff] [clientInboundChannel-7] [56] [INFO ] waiting for 1000
+[2021-03-23T09:32:35.035Z] [com.walrus.serviceundererred.configuartion.BackendAPICall] [clientInboundChannel-7] [101] [INFO ] API Call responded with 504
+[2021-03-23T09:32:35.035Z] [com.walrus.serviceundererred.configuartion.BackendAPICall] [clientInboundChannel-7] [66] [INFO ] Retrying
+[2021-03-23T09:32:35.035Z] [com.walrus.serviceundererred.configuartion.ExponentialBackoff] [clientInboundChannel-7] [56] [INFO ] waiting for 1325
+[2021-03-23T09:32:38.038Z] [com.walrus.serviceundererred.configuartion.BackendAPICall] [clientInboundChannel-7] [101] [INFO ] API Call responded with 504
+[2021-03-23T09:32:38.038Z] [com.walrus.serviceundererred.configuartion.BackendAPICall] [clientInboundChannel-7] [66] [INFO ] Retrying
+[2021-03-23T09:32:38.038Z] [com.walrus.serviceundererred.configuartion.ExponentialBackoff] [clientInboundChannel-7] [56] [INFO ] waiting for 1617
+[2021-03-23T09:32:42.042Z] [com.walrus.serviceundererred.configuartion.BackendAPICall] [clientInboundChannel-7] [101] [INFO ] API Call responded with 504
+[2021-03-23T09:32:42.042Z] [com.walrus.serviceundererred.configuartion.BackendAPICall] [clientInboundChannel-7] [66] [INFO ] Retrying
+[2021-03-23T09:32:42.042Z] [com.walrus.serviceundererred.configuartion.ExponentialBackoff] [clientInboundChannel-7] [56] [INFO ] waiting for 2226
+[2021-03-23T09:32:46.046Z] [com.walrus.serviceundererred.configuartion.BackendAPICall] [clientInboundChannel-7] [101] [INFO ] API Call responded with 504
+[2021-03-23T09:32:46.046Z] [com.walrus.serviceundererred.configuartion.BackendAPICall] [clientInboundChannel-7] [66] [INFO ] Retrying
+[2021-03-23T09:32:46.046Z] [com.walrus.serviceundererred.configuartion.ExponentialBackoff] [clientInboundChannel-7] [56] [INFO ] waiting for 3153
+[2021-03-23T09:32:51.051Z] [com.walrus.serviceundererred.configuartion.BackendAPICall] [clientInboundChannel-7] [101] [INFO ] API Call responded with 504
+[2021-03-23T09:32:51.051Z] [com.walrus.serviceundererred.configuartion.BackendAPICall] [clientInboundChannel-7] [66] [INFO ] Retrying
+[2021-03-23T09:32:51.051Z] [com.walrus.serviceundererred.configuartion.ExponentialBackoff] [clientInboundChannel-7] [56] [INFO ] waiting for 3488
+[2021-03-23T09:32:57.057Z] [com.walrus.serviceundererred.configuartion.BackendAPICall] [clientInboundChannel-7] [101] [INFO ] API Call responded with 504
+[2021-03-23T09:32:57.057Z] [com.walrus.serviceundererred.configuartion.BackendAPICall] [clientInboundChannel-7] [66] [INFO ] Retrying
+[2021-03-23T09:32:57.057Z] [com.walrus.serviceundererred.configuartion.ExponentialBackoff] [clientInboundChannel-7] [56] [INFO ] waiting for 3617
+[2021-03-23T09:33:01.001Z] [com.walrus.serviceundererred.configuartion.BackendAPICall] [clientInboundChannel-7] [101] [INFO ] API Call responded with 202
+[2021-03-23T09:33:01.001Z] [com.walrus.serviceundererred.configuartion.ExponentialBackoff] [clientInboundChannel-7] [73] [INFO ] terminating retries
+[2021-03-23T09:33:01.001Z] [com.walrus.serviceundererred.configuartion.BackendAPICall] [clientInboundChannel-7] [73] [INFO ] message generated
+[2021-03-23T09:38:58.058Z] [com.walrus.serviceundererred.ServiceundererredApplication] [main] [14] [INFO ] Starting Server
+[2021-03-23T09:38:58.058Z] [org.springframework.boot.StartupInfoLogger] [main] [55] [INFO ] Starting ServiceundererredApplication using Java 13.0.1 on Shithanshu with PID 14244 (C:\Users\SHITH\Desktop\Project\java\walrus\serviceundererred\target\classes started by SHITH in C:\Users\SHITH\Desktop\Project\java\walrus\serviceundererred)
+[2021-03-23T09:38:58.058Z] [org.springframework.boot.SpringApplication] [main] [662] [INFO ] No active profile set, falling back to default profiles: default
+[2021-03-23T09:39:00.000Z] [org.springframework.boot.web.embedded.tomcat.TomcatWebServer] [main] [108] [INFO ] Tomcat initialized with port(s): 8090 (http)
+[2021-03-23T09:39:00.000Z] [org.apache.juli.logging.DirectJDKLog] [main] [173] [INFO ] Initializing ProtocolHandler ["http-nio-8090"]
+[2021-03-23T09:39:00.000Z] [org.apache.juli.logging.DirectJDKLog] [main] [173] [INFO ] Starting service [Tomcat]
+[2021-03-23T09:39:00.000Z] [org.apache.juli.logging.DirectJDKLog] [main] [173] [INFO ] Starting Servlet engine: [Apache Tomcat/9.0.44]
+[2021-03-23T09:39:00.000Z] [org.apache.juli.logging.DirectJDKLog] [main] [173] [INFO ] Initializing Spring embedded WebApplicationContext
+[2021-03-23T09:39:00.000Z] [org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext] [main] [289] [INFO ] Root WebApplicationContext: initialization completed in 1946 ms
+[2021-03-23T09:39:01.001Z] [org.springframework.scheduling.concurrent.ExecutorConfigurationSupport] [main] [181] [INFO ] Initializing ExecutorService 'clientInboundChannelExecutor'
+[2021-03-23T09:39:01.001Z] [org.springframework.scheduling.concurrent.ExecutorConfigurationSupport] [main] [181] [INFO ] Initializing ExecutorService 'clientOutboundChannelExecutor'
+[2021-03-23T09:39:01.001Z] [org.springframework.scheduling.concurrent.ExecutorConfigurationSupport] [main] [181] [INFO ] Initializing ExecutorService 'brokerChannelExecutor'
+[2021-03-23T09:39:01.001Z] [org.springframework.scheduling.concurrent.ExecutorConfigurationSupport] [main] [181] [INFO ] Initializing ExecutorService 'messageBrokerTaskScheduler'
+[2021-03-23T09:39:01.001Z] [org.springframework.boot.autoconfigure.web.servlet.WelcomePageHandlerMapping] [main] [53] [INFO ] Adding welcome page: class path resource [static/index.html]
+[2021-03-23T09:39:01.001Z] [org.apache.juli.logging.DirectJDKLog] [main] [173] [INFO ] Starting ProtocolHandler ["http-nio-8090"]
+[2021-03-23T09:39:02.002Z] [org.springframework.boot.web.embedded.tomcat.TomcatWebServer] [main] [220] [INFO ] Tomcat started on port(s): 8090 (http) with context path ''
+[2021-03-23T09:39:02.002Z] [org.springframework.core.log.CompositeLog] [main] [137] [INFO ] Starting...
+[2021-03-23T09:39:02.002Z] [org.springframework.core.log.CompositeLog] [main] [137] [INFO ] BrokerAvailabilityEvent[available=true, SimpleBrokerMessageHandler [org.springframework.messaging.simp.broker.DefaultSubscriptionRegistry@2935fd2c]]
+[2021-03-23T09:39:02.002Z] [org.springframework.core.log.CompositeLog] [main] [137] [INFO ] Started.
+[2021-03-23T09:39:02.002Z] [org.springframework.boot.StartupInfoLogger] [main] [61] [INFO ] Started ServiceundererredApplication in 3.995 seconds (JVM running for 4.788)
+[2021-03-23T09:46:25.025Z] [org.springframework.test.context.support.AbstractTestContextBootstrapper] [main] [305] [INFO ] Neither @ContextConfiguration nor @ContextHierarchy found for test class [com.walrus.serviceundererred.ServiceundererredApplicationTests], using SpringBootContextLoader
+[2021-03-23T09:46:25.025Z] [org.springframework.test.context.support.AbstractContextLoader] [main] [264] [INFO ] Could not detect default resource locations for test class [com.walrus.serviceundererred.ServiceundererredApplicationTests]: no resource found for suffixes {-context.xml, Context.groovy}.
+[2021-03-23T09:46:25.025Z] [org.springframework.test.context.support.AnnotationConfigContextLoaderUtils] [main] [83] [INFO ] Could not detect default configuration classes for test class [com.walrus.serviceundererred.ServiceundererredApplicationTests]: ServiceundererredApplicationTests does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
+[2021-03-23T09:46:26.026Z] [org.springframework.boot.test.context.SpringBootTestContextBootstrapper] [main] [238] [INFO ] Found @SpringBootConfiguration com.walrus.serviceundererred.ServiceundererredApplication for test class com.walrus.serviceundererred.ServiceundererredApplicationTests
+[2021-03-23T09:46:26.026Z] [org.springframework.test.context.support.AbstractTestContextBootstrapper] [main] [245] [INFO ] Loaded default TestExecutionListener class names from location [META-INF/spring.factories]: [org.springframework.boot.test.mock.mockito.MockitoTestExecutionListener, org.springframework.boot.test.mock.mockito.ResetMocksTestExecutionListener, org.springframework.boot.test.autoconfigure.restdocs.RestDocsTestExecutionListener, org.springframework.boot.test.autoconfigure.web.client.MockRestServiceServerResetTestExecutionListener, org.springframework.boot.test.autoconfigure.web.servlet.MockMvcPrintOnlyOnFailureTestExecutionListener, org.springframework.boot.test.autoconfigure.web.servlet.WebDriverTestExecutionListener, org.springframework.boot.test.autoconfigure.webservices.client.MockWebServiceServerTestExecutionListener, org.springframework.test.context.web.ServletTestExecutionListener, org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener, org.springframework.test.context.event.ApplicationEventsTestExecutionListener, org.springframework.test.context.support.DependencyInjectionTestExecutionListener, org.springframework.test.context.support.DirtiesContextTestExecutionListener, org.springframework.test.context.transaction.TransactionalTestExecutionListener, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener, org.springframework.test.context.event.EventPublishingTestExecutionListener]
+[2021-03-23T09:46:26.026Z] [org.springframework.test.context.support.AbstractTestContextBootstrapper] [main] [174] [INFO ] Using TestExecutionListeners: [org.springframework.test.context.web.ServletTestExecutionListener@1cdc4c27, org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener@77b14724, org.springframework.test.context.event.ApplicationEventsTestExecutionListener@5d9b7a8a, org.springframework.boot.test.mock.mockito.MockitoTestExecutionListener@1e8ce150, org.springframework.boot.test.autoconfigure.SpringBootDependencyInjectionTestExecutionListener@604f2bd2, org.springframework.test.context.support.DirtiesContextTestExecutionListener@1d3ac898, org.springframework.test.context.event.EventPublishingTestExecutionListener@1b73be9f, org.springframework.boot.test.mock.mockito.ResetMocksTestExecutionListener@628c4ac0, org.springframework.boot.test.autoconfigure.restdocs.RestDocsTestExecutionListener@7b84fcf8, org.springframework.boot.test.autoconfigure.web.client.MockRestServiceServerResetTestExecutionListener@30b19518, org.springframework.boot.test.autoconfigure.web.servlet.MockMvcPrintOnlyOnFailureTestExecutionListener@363042d7, org.springframework.boot.test.autoconfigure.web.servlet.WebDriverTestExecutionListener@366ac49b, org.springframework.boot.test.autoconfigure.webservices.client.MockWebServiceServerTestExecutionListener@6ad59d92]
+[2021-03-23T09:46:26.026Z] [org.springframework.boot.StartupInfoLogger] [main] [55] [INFO ] Starting ServiceundererredApplicationTests using Java 13.0.1 on Shithanshu with PID 8120 (started by SHITH in C:\Users\SHITH\Desktop\Project\java\walrus\serviceundererred)
+[2021-03-23T09:46:26.026Z] [org.springframework.boot.SpringApplication] [main] [662] [INFO ] No active profile set, falling back to default profiles: default
+[2021-03-23T09:46:27.027Z] [org.springframework.scheduling.concurrent.ExecutorConfigurationSupport] [main] [181] [INFO ] Initializing ExecutorService 'clientInboundChannelExecutor'
+[2021-03-23T09:46:27.027Z] [org.springframework.scheduling.concurrent.ExecutorConfigurationSupport] [main] [181] [INFO ] Initializing ExecutorService 'clientOutboundChannelExecutor'
+[2021-03-23T09:46:27.027Z] [org.springframework.scheduling.concurrent.ExecutorConfigurationSupport] [main] [181] [INFO ] Initializing ExecutorService 'brokerChannelExecutor'
+[2021-03-23T09:46:27.027Z] [org.springframework.scheduling.concurrent.ExecutorConfigurationSupport] [main] [181] [INFO ] Initializing ExecutorService 'messageBrokerTaskScheduler'
+[2021-03-23T09:46:28.028Z] [org.springframework.boot.autoconfigure.web.servlet.WelcomePageHandlerMapping] [main] [53] [INFO ] Adding welcome page: class path resource [static/index.html]
+[2021-03-23T09:46:29.029Z] [org.springframework.core.log.CompositeLog] [main] [137] [INFO ] Starting...
+[2021-03-23T09:46:29.029Z] [org.springframework.core.log.CompositeLog] [main] [137] [INFO ] BrokerAvailabilityEvent[available=true, SimpleBrokerMessageHandler [org.springframework.messaging.simp.broker.DefaultSubscriptionRegistry@32ec9c90]]
+[2021-03-23T09:46:29.029Z] [org.springframework.core.log.CompositeLog] [main] [137] [INFO ] Started.
+[2021-03-23T09:46:29.029Z] [org.springframework.boot.StartupInfoLogger] [main] [61] [INFO ] Started ServiceundererredApplicationTests in 3.106 seconds (JVM running for 4.59)
+[2021-03-23T09:46:30.030Z] [org.springframework.core.log.CompositeLog] [SpringContextShutdownHook] [137] [INFO ] Stopping...
+[2021-03-23T09:46:30.030Z] [org.springframework.core.log.CompositeLog] [SpringContextShutdownHook] [137] [INFO ] BrokerAvailabilityEvent[available=false, SimpleBrokerMessageHandler [org.springframework.messaging.simp.broker.DefaultSubscriptionRegistry@32ec9c90]]
+[2021-03-23T09:46:30.030Z] [org.springframework.core.log.CompositeLog] [SpringContextShutdownHook] [137] [INFO ] Stopped.
+[2021-03-23T09:46:30.030Z] [org.springframework.scheduling.concurrent.ExecutorConfigurationSupport] [SpringContextShutdownHook] [218] [INFO ] Shutting down ExecutorService 'messageBrokerTaskScheduler'
+[2021-03-23T09:46:30.030Z] [org.springframework.scheduling.concurrent.ExecutorConfigurationSupport] [SpringContextShutdownHook] [218] [INFO ] Shutting down ExecutorService 'brokerChannelExecutor'
+[2021-03-23T09:46:30.030Z] [org.springframework.scheduling.concurrent.ExecutorConfigurationSupport] [SpringContextShutdownHook] [218] [INFO ] Shutting down ExecutorService 'clientOutboundChannelExecutor'
+[2021-03-23T09:46:30.030Z] [org.springframework.scheduling.concurrent.ExecutorConfigurationSupport] [SpringContextShutdownHook] [218] [INFO ] Shutting down ExecutorService 'clientInboundChannelExecutor'
+[2021-03-23T09:55:26.026Z] [org.springframework.test.context.support.AbstractTestContextBootstrapper] [main] [305] [INFO ] Neither @ContextConfiguration nor @ContextHierarchy found for test class [com.walrus.serviceundererred.ServiceundererredApplicationTests], using SpringBootContextLoader
+[2021-03-23T09:55:26.026Z] [org.springframework.test.context.support.AbstractContextLoader] [main] [264] [INFO ] Could not detect default resource locations for test class [com.walrus.serviceundererred.ServiceundererredApplicationTests]: no resource found for suffixes {-context.xml, Context.groovy}.
+[2021-03-23T09:55:26.026Z] [org.springframework.test.context.support.AnnotationConfigContextLoaderUtils] [main] [83] [INFO ] Could not detect default configuration classes for test class [com.walrus.serviceundererred.ServiceundererredApplicationTests]: ServiceundererredApplicationTests does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
+[2021-03-23T09:55:26.026Z] [org.springframework.boot.test.context.SpringBootTestContextBootstrapper] [main] [238] [INFO ] Found @SpringBootConfiguration com.walrus.serviceundererred.ServiceundererredApplication for test class com.walrus.serviceundererred.ServiceundererredApplicationTests
+[2021-03-23T09:55:26.026Z] [org.springframework.test.context.support.AbstractTestContextBootstrapper] [main] [245] [INFO ] Loaded default TestExecutionListener class names from location [META-INF/spring.factories]: [org.springframework.boot.test.mock.mockito.MockitoTestExecutionListener, org.springframework.boot.test.mock.mockito.ResetMocksTestExecutionListener, org.springframework.boot.test.autoconfigure.restdocs.RestDocsTestExecutionListener, org.springframework.boot.test.autoconfigure.web.client.MockRestServiceServerResetTestExecutionListener, org.springframework.boot.test.autoconfigure.web.servlet.MockMvcPrintOnlyOnFailureTestExecutionListener, org.springframework.boot.test.autoconfigure.web.servlet.WebDriverTestExecutionListener, org.springframework.boot.test.autoconfigure.webservices.client.MockWebServiceServerTestExecutionListener, org.springframework.test.context.web.ServletTestExecutionListener, org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener, org.springframework.test.context.event.ApplicationEventsTestExecutionListener, org.springframework.test.context.support.DependencyInjectionTestExecutionListener, org.springframework.test.context.support.DirtiesContextTestExecutionListener, org.springframework.test.context.transaction.TransactionalTestExecutionListener, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener, org.springframework.test.context.event.EventPublishingTestExecutionListener]
+[2021-03-23T09:55:26.026Z] [org.springframework.test.context.support.AbstractTestContextBootstrapper] [main] [174] [INFO ] Using TestExecutionListeners: [org.springframework.test.context.web.ServletTestExecutionListener@1cdc4c27, org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener@77b14724, org.springframework.test.context.event.ApplicationEventsTestExecutionListener@5d9b7a8a, org.springframework.boot.test.mock.mockito.MockitoTestExecutionListener@1e8ce150, org.springframework.boot.test.autoconfigure.SpringBootDependencyInjectionTestExecutionListener@604f2bd2, org.springframework.test.context.support.DirtiesContextTestExecutionListener@1d3ac898, org.springframework.test.context.event.EventPublishingTestExecutionListener@1b73be9f, org.springframework.boot.test.mock.mockito.ResetMocksTestExecutionListener@628c4ac0, org.springframework.boot.test.autoconfigure.restdocs.RestDocsTestExecutionListener@7b84fcf8, org.springframework.boot.test.autoconfigure.web.client.MockRestServiceServerResetTestExecutionListener@30b19518, org.springframework.boot.test.autoconfigure.web.servlet.MockMvcPrintOnlyOnFailureTestExecutionListener@363042d7, org.springframework.boot.test.autoconfigure.web.servlet.WebDriverTestExecutionListener@366ac49b, org.springframework.boot.test.autoconfigure.webservices.client.MockWebServiceServerTestExecutionListener@6ad59d92]
+[2021-03-23T09:55:26.026Z] [org.springframework.boot.StartupInfoLogger] [main] [55] [INFO ] Starting ServiceundererredApplicationTests using Java 13.0.1 on Shithanshu with PID 18740 (started by SHITH in C:\Users\SHITH\Desktop\Project\java\walrus\serviceundererred)
+[2021-03-23T09:55:26.026Z] [org.springframework.boot.SpringApplication] [main] [662] [INFO ] No active profile set, falling back to default profiles: default
+[2021-03-23T09:55:28.028Z] [org.springframework.scheduling.concurrent.ExecutorConfigurationSupport] [main] [181] [INFO ] Initializing ExecutorService 'clientInboundChannelExecutor'
+[2021-03-23T09:55:28.028Z] [org.springframework.scheduling.concurrent.ExecutorConfigurationSupport] [main] [181] [INFO ] Initializing ExecutorService 'clientOutboundChannelExecutor'
+[2021-03-23T09:55:28.028Z] [org.springframework.scheduling.concurrent.ExecutorConfigurationSupport] [main] [181] [INFO ] Initializing ExecutorService 'brokerChannelExecutor'
+[2021-03-23T09:55:28.028Z] [org.springframework.scheduling.concurrent.ExecutorConfigurationSupport] [main] [181] [INFO ] Initializing ExecutorService 'messageBrokerTaskScheduler'
+[2021-03-23T09:55:29.029Z] [org.springframework.boot.autoconfigure.web.servlet.WelcomePageHandlerMapping] [main] [53] [INFO ] Adding welcome page: class path resource [static/index.html]
+[2021-03-23T09:55:29.029Z] [org.springframework.core.log.CompositeLog] [main] [137] [INFO ] Starting...
+[2021-03-23T09:55:29.029Z] [org.springframework.core.log.CompositeLog] [main] [137] [INFO ] BrokerAvailabilityEvent[available=true, SimpleBrokerMessageHandler [org.springframework.messaging.simp.broker.DefaultSubscriptionRegistry@32bb0072]]
+[2021-03-23T09:55:29.029Z] [org.springframework.core.log.CompositeLog] [main] [137] [INFO ] Started.
+[2021-03-23T09:55:29.029Z] [org.springframework.boot.StartupInfoLogger] [main] [61] [INFO ] Started ServiceundererredApplicationTests in 3.206 seconds (JVM running for 4.688)
+[2021-03-23T09:55:30.030Z] [org.springframework.core.log.CompositeLog] [SpringContextShutdownHook] [137] [INFO ] Stopping...
+[2021-03-23T09:55:30.030Z] [org.springframework.core.log.CompositeLog] [SpringContextShutdownHook] [137] [INFO ] BrokerAvailabilityEvent[available=false, SimpleBrokerMessageHandler [org.springframework.messaging.simp.broker.DefaultSubscriptionRegistry@32bb0072]]
+[2021-03-23T09:55:30.030Z] [org.springframework.core.log.CompositeLog] [SpringContextShutdownHook] [137] [INFO ] Stopped.
+[2021-03-23T09:55:30.030Z] [org.springframework.scheduling.concurrent.ExecutorConfigurationSupport] [SpringContextShutdownHook] [218] [INFO ] Shutting down ExecutorService 'messageBrokerTaskScheduler'
+[2021-03-23T09:55:30.030Z] [org.springframework.scheduling.concurrent.ExecutorConfigurationSupport] [SpringContextShutdownHook] [218] [INFO ] Shutting down ExecutorService 'brokerChannelExecutor'
+[2021-03-23T09:55:30.030Z] [org.springframework.scheduling.concurrent.ExecutorConfigurationSupport] [SpringContextShutdownHook] [218] [INFO ] Shutting down ExecutorService 'clientOutboundChannelExecutor'
+[2021-03-23T09:55:30.030Z] [org.springframework.scheduling.concurrent.ExecutorConfigurationSupport] [SpringContextShutdownHook] [218] [INFO ] Shutting down ExecutorService 'clientInboundChannelExecutor'
+[2021-03-23T09:59:23.023Z] [org.springframework.test.context.support.AbstractTestContextBootstrapper] [main] [305] [INFO ] Neither @ContextConfiguration nor @ContextHierarchy found for test class [com.walrus.serviceundererred.ServiceundererredApplicationTests], using SpringBootContextLoader
+[2021-03-23T09:59:23.023Z] [org.springframework.test.context.support.AbstractContextLoader] [main] [264] [INFO ] Could not detect default resource locations for test class [com.walrus.serviceundererred.ServiceundererredApplicationTests]: no resource found for suffixes {-context.xml, Context.groovy}.
+[2021-03-23T09:59:23.023Z] [org.springframework.test.context.support.AnnotationConfigContextLoaderUtils] [main] [83] [INFO ] Could not detect default configuration classes for test class [com.walrus.serviceundererred.ServiceundererredApplicationTests]: ServiceundererredApplicationTests does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
+[2021-03-23T09:59:23.023Z] [org.springframework.boot.test.context.SpringBootTestContextBootstrapper] [main] [238] [INFO ] Found @SpringBootConfiguration com.walrus.serviceundererred.ServiceundererredApplication for test class com.walrus.serviceundererred.ServiceundererredApplicationTests
+[2021-03-23T09:59:23.023Z] [org.springframework.test.context.support.AbstractTestContextBootstrapper] [main] [245] [INFO ] Loaded default TestExecutionListener class names from location [META-INF/spring.factories]: [org.springframework.boot.test.mock.mockito.MockitoTestExecutionListener, org.springframework.boot.test.mock.mockito.ResetMocksTestExecutionListener, org.springframework.boot.test.autoconfigure.restdocs.RestDocsTestExecutionListener, org.springframework.boot.test.autoconfigure.web.client.MockRestServiceServerResetTestExecutionListener, org.springframework.boot.test.autoconfigure.web.servlet.MockMvcPrintOnlyOnFailureTestExecutionListener, org.springframework.boot.test.autoconfigure.web.servlet.WebDriverTestExecutionListener, org.springframework.boot.test.autoconfigure.webservices.client.MockWebServiceServerTestExecutionListener, org.springframework.test.context.web.ServletTestExecutionListener, org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener, org.springframework.test.context.event.ApplicationEventsTestExecutionListener, org.springframework.test.context.support.DependencyInjectionTestExecutionListener, org.springframework.test.context.support.DirtiesContextTestExecutionListener, org.springframework.test.context.transaction.TransactionalTestExecutionListener, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener, org.springframework.test.context.event.EventPublishingTestExecutionListener]
+[2021-03-23T09:59:23.023Z] [org.springframework.test.context.support.AbstractTestContextBootstrapper] [main] [174] [INFO ] Using TestExecutionListeners: [org.springframework.test.context.web.ServletTestExecutionListener@54dcfa5a, org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener@1817f1eb, org.springframework.test.context.event.ApplicationEventsTestExecutionListener@767e20cf, org.springframework.boot.test.mock.mockito.MockitoTestExecutionListener@3a3e78f, org.springframework.boot.test.autoconfigure.SpringBootDependencyInjectionTestExecutionListener@301ec38b, org.springframework.test.context.support.DirtiesContextTestExecutionListener@17a1e4ca, org.springframework.test.context.event.EventPublishingTestExecutionListener@10ded6a9, org.springframework.boot.test.mock.mockito.ResetMocksTestExecutionListener@c5dc4a2, org.springframework.boot.test.autoconfigure.restdocs.RestDocsTestExecutionListener@4a194c39, org.springframework.boot.test.autoconfigure.web.client.MockRestServiceServerResetTestExecutionListener@52066604, org.springframework.boot.test.autoconfigure.web.servlet.MockMvcPrintOnlyOnFailureTestExecutionListener@340b9973, org.springframework.boot.test.autoconfigure.web.servlet.WebDriverTestExecutionListener@56113384, org.springframework.boot.test.autoconfigure.webservices.client.MockWebServiceServerTestExecutionListener@5669c5fb]
+[2021-03-23T09:59:23.023Z] [org.springframework.boot.StartupInfoLogger] [main] [55] [INFO ] Starting ServiceundererredApplicationTests using Java 11.0.5 on Shithanshu with PID 14312 (started by SHITH in C:\Users\SHITH\Desktop\Project\java\walrus\serviceundererred)
+[2021-03-23T09:59:23.023Z] [org.springframework.boot.SpringApplication] [main] [662] [INFO ] No active profile set, falling back to default profiles: default
+[2021-03-23T09:59:24.024Z] [org.springframework.scheduling.concurrent.ExecutorConfigurationSupport] [main] [181] [INFO ] Initializing ExecutorService 'clientInboundChannelExecutor'
+[2021-03-23T09:59:24.024Z] [org.springframework.scheduling.concurrent.ExecutorConfigurationSupport] [main] [181] [INFO ] Initializing ExecutorService 'clientOutboundChannelExecutor'
+[2021-03-23T09:59:24.024Z] [org.springframework.scheduling.concurrent.ExecutorConfigurationSupport] [main] [181] [INFO ] Initializing ExecutorService 'brokerChannelExecutor'
+[2021-03-23T09:59:25.025Z] [org.springframework.scheduling.concurrent.ExecutorConfigurationSupport] [main] [181] [INFO ] Initializing ExecutorService 'messageBrokerTaskScheduler'
+[2021-03-23T09:59:25.025Z] [org.springframework.boot.autoconfigure.web.servlet.WelcomePageHandlerMapping] [main] [53] [INFO ] Adding welcome page: class path resource [static/index.html]
+[2021-03-23T09:59:26.026Z] [org.springframework.core.log.CompositeLog] [main] [137] [INFO ] Starting...
+[2021-03-23T09:59:26.026Z] [org.springframework.core.log.CompositeLog] [main] [137] [INFO ] BrokerAvailabilityEvent[available=true, SimpleBrokerMessageHandler [org.springframework.messaging.simp.broker.DefaultSubscriptionRegistry@1cd43562]]
+[2021-03-23T09:59:26.026Z] [org.springframework.core.log.CompositeLog] [main] [137] [INFO ] Started.
+[2021-03-23T09:59:26.026Z] [org.springframework.boot.StartupInfoLogger] [main] [61] [INFO ] Started ServiceundererredApplicationTests in 2.936 seconds (JVM running for 4.489)
+[2021-03-23T09:59:26.026Z] [org.springframework.core.log.CompositeLog] [SpringContextShutdownHook] [137] [INFO ] Stopping...
+[2021-03-23T09:59:26.026Z] [org.springframework.core.log.CompositeLog] [SpringContextShutdownHook] [137] [INFO ] BrokerAvailabilityEvent[available=false, SimpleBrokerMessageHandler [org.springframework.messaging.simp.broker.DefaultSubscriptionRegistry@1cd43562]]
+[2021-03-23T09:59:26.026Z] [org.springframework.core.log.CompositeLog] [SpringContextShutdownHook] [137] [INFO ] Stopped.
+[2021-03-23T09:59:26.026Z] [org.springframework.scheduling.concurrent.ExecutorConfigurationSupport] [SpringContextShutdownHook] [218] [INFO ] Shutting down ExecutorService 'messageBrokerTaskScheduler'
+[2021-03-23T09:59:26.026Z] [org.springframework.scheduling.concurrent.ExecutorConfigurationSupport] [SpringContextShutdownHook] [218] [INFO ] Shutting down ExecutorService 'brokerChannelExecutor'
+[2021-03-23T09:59:26.026Z] [org.springframework.scheduling.concurrent.ExecutorConfigurationSupport] [SpringContextShutdownHook] [218] [INFO ] Shutting down ExecutorService 'clientOutboundChannelExecutor'
+[2021-03-23T09:59:26.026Z] [org.springframework.scheduling.concurrent.ExecutorConfigurationSupport] [SpringContextShutdownHook] [218] [INFO ] Shutting down ExecutorService 'clientInboundChannelExecutor'

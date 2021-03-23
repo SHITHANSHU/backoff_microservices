@@ -1,0 +1,30 @@
+server:
+  applicationConnectors:
+    - type: http
+      port: 8085
+      port: 8085
+
+  adminConnectors:
+    - type: http
+      port: 8081
+
+logging:
+  level: DEBUG
+
+  appenders:
+    - type: console
+      threshold: INFO
+      target: stderr
+      logFormat: "%-5level [%thread][%logger{0}]: %message%n"
+
+    - type: file
+      threshold: INFO
+      currentLogFilename: ./logs/example.log
+      archivedLogFilenamePattern: ./logs/myapp-%d.log.gz
+      archivedFileCount: 5
+
+    - type: file
+      threshold: DEBUG
+      currentLogFilename: ./logs/debug.log
+      archivedLogFilenamePattern: ./logs/debug-%d{yyyy-MM-dd-hh}.log.gz
+      archivedFileCount: 6

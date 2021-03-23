@@ -1,0 +1,132 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="75fe2990-cae6-4f6c-b0df-ae8dbe2a94ea" name="Default Changelist" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="importingSettings">
+      <MavenImportingSettings>
+        <option name="importAutomatically" value="true" />
+      </MavenImportingSettings>
+    </option>
+  </component>
+  <component name="ProjectId" id="1q7OPZlXmdKy9Ze6QcMjOyfJUHd" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="project.structure.last.edited" value="Modules" />
+    <property name="project.structure.proportion" value="0.0" />
+    <property name="project.structure.side.proportion" value="0.0" />
+  </component>
+  <component name="RunManager" selected="Application.serviceRouge">
+    <configuration name="numberplateService" type="Application" factoryName="Application" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="io.dropwizard.numberplateService" />
+      <module name="service-rouge" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="io.dropwizard.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="serviceRouge" type="Application" factoryName="Application" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="io.dropwizard.serviceRouge" />
+      <module name="service-rouge" />
+      <option name="PROGRAM_PARAMETERS" value="server input.yml" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="io.dropwizard.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="75fe2990-cae6-4f6c-b0df-ae8dbe2a94ea" name="Default Changelist" comment="" />
+      <created>1616427138779</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1616427138779</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="233" y="0" key="#Project_Structure" timestamp="1616427806550">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state x="233" y="0" key="#Project_Structure/0.0.1280.680/1920.0.1920.1040@0.0.1280.680" timestamp="1616427806550" />
+    <state x="446" y="51" key="#com.intellij.ide.util.MemberChooser" timestamp="1616427865237">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state x="446" y="51" key="#com.intellij.ide.util.MemberChooser/0.0.1280.680/1920.0.1920.1040@0.0.1280.680" timestamp="1616427865237" />
+    <state x="224" y="0" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog" timestamp="1616430036776">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state x="224" y="0" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog/0.0.1280.680/1920.0.1920.1040@0.0.1280.680" timestamp="1616430036776" />
+    <state x="371" y="89" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1616429470438">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state x="371" y="89" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1280.680/1920.0.1920.1040@0.0.1280.680" timestamp="1616429470438" />
+    <state x="360" y="12" key="#numberplateService" timestamp="1616428694839">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state x="360" y="12" key="#numberplateService/0.0.1280.680/1920.0.1920.1040@0.0.1280.680" timestamp="1616428694839" />
+    <state x="360" y="12" key="#servicerouge" timestamp="1616429355695">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state x="360" y="12" key="#servicerouge/0.0.1280.680/1920.0.1920.1040@0.0.1280.680" timestamp="1616429355695" />
+    <state x="376" y="103" key="EnvironmentVariablesDialog" timestamp="1616428692845">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state x="376" y="103" key="EnvironmentVariablesDialog/0.0.1280.680/1920.0.1920.1040@0.0.1280.680" timestamp="1616428692845" />
+    <state width="1237" height="163" key="GridCell.Tab.0.bottom" timestamp="1616474256214">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state width="1237" height="163" key="GridCell.Tab.0.bottom/0.0.1280.680/1920.0.1920.1040@0.0.1280.680" timestamp="1616474256214" />
+    <state width="1237" height="163" key="GridCell.Tab.0.center" timestamp="1616474256213">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state width="1237" height="163" key="GridCell.Tab.0.center/0.0.1280.680/1920.0.1920.1040@0.0.1280.680" timestamp="1616474256212" />
+    <state width="1237" height="163" key="GridCell.Tab.0.left" timestamp="1616474256211">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state width="1237" height="163" key="GridCell.Tab.0.left/0.0.1280.680/1920.0.1920.1040@0.0.1280.680" timestamp="1616474256211" />
+    <state width="1237" height="163" key="GridCell.Tab.0.right" timestamp="1616474256214">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state width="1237" height="163" key="GridCell.Tab.0.right/0.0.1280.680/1920.0.1920.1040@0.0.1280.680" timestamp="1616474256214" />
+    <state x="371" y="97" key="extract.method.dialog" timestamp="1616432778567">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state x="371" y="97" key="extract.method.dialog/0.0.1280.680/1920.0.1920.1040@0.0.1280.680" timestamp="1616432778567" />
+    <state x="91" y="44" key="new project wizard" timestamp="1616433533333">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state x="91" y="44" key="new project wizard/0.0.1280.680/1920.0.1920.1040@0.0.1280.680" timestamp="1616433533333" />
+  </component>
+</project>

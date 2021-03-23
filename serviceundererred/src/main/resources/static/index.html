@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Hello WebSocket</title>
+    <link href="/webjars/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+    <link href="/main.css" rel="stylesheet">
+<!--    <script src="/webjars/jquery/jquery.min.js"></script>-->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="/webjars/sockjs-client/sockjs.min.js"></script>
+    <script src="/webjars/stomp-websocket/stomp.min.js"></script>
+    <script src="/index.js"></script>
+    <style>
+        body{
+        background-color: #616161;
+        color:white;
+        }
+    </style>
+</head>
+
+<body>
+
+<div id="main-content" class="container">
+    <div class="row">
+        <div class="col-md-12">
+            <h1>WALRUS API FRONTEND<h1>
+        </div>
+    </div>
+    <div class="row">
+        <div class="col-md-9">
+            <form class="form-inline">
+                <div class="form-group">
+                    <label for="connect">WebSocket connection:</label>
+                    <button id="connect" class="btn btn-default" type="submit">Connect</button>
+                    <button id="disconnect" class="btn btn-default" type="submit" disabled="disabled">Disconnect
+                    </button>
+                </div>
+            </form>
+        </div>
+        <div class="col-md-3">
+            <form class="form-inline">
+                <button id="start" class="btn btn-default" type="submit">Start</button>
+            </form>
+        </div>
+    </div>
+    <div class="row">
+        <div class="col-md-12">
+            <table id="response" class="table ">
+                <thead>
+                <tr>
+                    <th>API Response</th>
+
+                    <th>Status Code</th>
+
+                    <th>Retry/Stop</th>
+                </tr>
+                </thead>
+                <tbody id="message">
+                </tbody>
+            </table>
+        </div>
+    </div>
+</div>
+</body>
+</html>
