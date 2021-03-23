@@ -111,3 +111,61 @@ INFO  [2021-03-23 04:42:57,107] org.eclipse.jetty.server.handler.ContextHandler:
 INFO  [2021-03-23 04:42:57,142] org.eclipse.jetty.server.AbstractConnector: Started application@3104f7bd{HTTP/1.1,[http/1.1]}{0.0.0.0:8085}
 INFO  [2021-03-23 04:42:57,159] org.eclipse.jetty.server.AbstractConnector: Started admin@67c277a0{HTTP/1.1,[http/1.1]}{0.0.0.0:8081}
 INFO  [2021-03-23 04:42:57,159] org.eclipse.jetty.server.Server: Started @4038ms
+INFO  [2021-03-23 04:44:12,511] io.dropwizard.server.DefaultServerFactory: Registering jersey handler with root path prefix: /
+INFO  [2021-03-23 04:44:12,514] io.dropwizard.server.DefaultServerFactory: Registering admin handler with root path prefix: /
+INFO  [2021-03-23 04:44:12,518] io.dropwizard.serviceRougeResourceImpl: server started
+INFO  [2021-03-23 04:44:12,898] io.dropwizard.server.ServerFactory: Starting Sample Service Application
+INFO  [2021-03-23 04:44:13,018] org.eclipse.jetty.setuid.SetUIDListener: Opened application@205b132e{HTTP/1.1,[http/1.1]}{0.0.0.0:8085}
+INFO  [2021-03-23 04:44:13,018] org.eclipse.jetty.setuid.SetUIDListener: Opened admin@17271176{HTTP/1.1,[http/1.1]}{0.0.0.0:8081}
+INFO  [2021-03-23 04:44:13,020] org.eclipse.jetty.server.Server: jetty-9.4.19.v20190610; built: 2019-06-10T16:30:51.723Z; git: afcf563148970e98786327af5e07c261fda175d3; jvm 11.0.5+10-b520.30
+INFO  [2021-03-23 04:44:13,577] io.dropwizard.jersey.DropwizardResourceConfig: The following paths were found for the configured resources:
+
+    GET     /service-walrus/hello (io.dropwizard.serviceRougeResourceImpl)
+
+INFO  [2021-03-23 04:44:13,579] org.eclipse.jetty.server.handler.ContextHandler: Started i.d.j.MutableServletContextHandler@69e308c6{/,null,AVAILABLE}
+INFO  [2021-03-23 04:44:13,585] io.dropwizard.setup.AdminEnvironment: tasks = 
+
+    POST    /tasks/log-level (io.dropwizard.servlets.tasks.LogConfigurationTask)
+    POST    /tasks/gc (io.dropwizard.servlets.tasks.GarbageCollectionTask)
+
+WARN  [2021-03-23 04:44:13,585] io.dropwizard.setup.AdminEnvironment: 
+!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+!    THIS APPLICATION HAS NO HEALTHCHECKS. THIS MEANS YOU WILL NEVER KNOW      !
+!     IF IT DIES IN PRODUCTION, WHICH MEANS YOU WILL NEVER KNOW IF YOU'RE      !
+!    LETTING YOUR USERS DOWN. YOU SHOULD ADD A HEALTHCHECK FOR EACH OF YOUR    !
+!         APPLICATION'S DEPENDENCIES WHICH FULLY (BUT LIGHTLY) TESTS IT.       !
+!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+INFO  [2021-03-23 04:44:13,598] org.eclipse.jetty.server.handler.ContextHandler: Started i.d.j.MutableServletContextHandler@89c65d5{/,null,AVAILABLE}
+INFO  [2021-03-23 04:44:13,637] org.eclipse.jetty.server.AbstractConnector: Started application@205b132e{HTTP/1.1,[http/1.1]}{0.0.0.0:8085}
+INFO  [2021-03-23 04:44:13,656] org.eclipse.jetty.server.AbstractConnector: Started admin@17271176{HTTP/1.1,[http/1.1]}{0.0.0.0:8081}
+INFO  [2021-03-23 04:44:13,657] org.eclipse.jetty.server.Server: Started @3386ms
+ERROR [2021-03-23 04:44:44,945] io.dropwizard.serviceRougeResourceImpl: rejected returning 504
+ERROR [2021-03-23 04:49:54,827] io.dropwizard.serviceRougeResourceImpl: rejected returning 504
+ERROR [2021-03-23 04:50:14,465] io.dropwizard.serviceRougeResourceImpl: rejected returning 504
+ERROR [2021-03-23 04:50:17,512] io.dropwizard.serviceRougeResourceImpl: rejected returning 504
+ERROR [2021-03-23 04:50:21,461] io.dropwizard.serviceRougeResourceImpl: rejected returning 504
+ERROR [2021-03-23 04:50:26,000] io.dropwizard.serviceRougeResourceImpl: rejected returning 504
+ERROR [2021-03-23 04:50:31,427] io.dropwizard.serviceRougeResourceImpl: rejected returning 504
+ERROR [2021-03-23 04:50:37,205] io.dropwizard.serviceRougeResourceImpl: rejected returning 504
+ERROR [2021-03-23 04:50:43,795] io.dropwizard.serviceRougeResourceImpl: rejected returning 504
+ERROR [2021-03-23 04:50:51,366] io.dropwizard.serviceRougeResourceImpl: rejected returning 504
+ERROR [2021-03-23 04:50:59,149] io.dropwizard.serviceRougeResourceImpl: rejected returning 504
+ERROR [2021-03-23 04:51:37,788] io.dropwizard.serviceRougeResourceImpl: rejected returning 504
+ERROR [2021-03-23 04:51:40,836] io.dropwizard.serviceRougeResourceImpl: rejected returning 504
+ERROR [2021-03-23 04:51:44,302] io.dropwizard.serviceRougeResourceImpl: rejected returning 504
+ERROR [2021-03-23 04:51:48,094] io.dropwizard.serviceRougeResourceImpl: rejected returning 504
+ERROR [2021-03-23 04:51:51,921] io.dropwizard.serviceRougeResourceImpl: rejected returning 504
+ERROR [2021-03-23 04:51:55,984] io.dropwizard.serviceRougeResourceImpl: rejected returning 504
+ERROR [2021-03-23 04:52:00,287] io.dropwizard.serviceRougeResourceImpl: rejected returning 504
+ERROR [2021-03-23 05:51:45,768] io.dropwizard.serviceRougeResourceImpl: rejected returning 504
+ERROR [2021-03-23 05:51:48,839] io.dropwizard.serviceRougeResourceImpl: rejected returning 504
+ERROR [2021-03-23 05:51:53,526] io.dropwizard.serviceRougeResourceImpl: rejected returning 504
+ERROR [2021-03-23 05:52:00,228] io.dropwizard.serviceRougeResourceImpl: rejected returning 504
+ERROR [2021-03-23 06:07:58,218] io.dropwizard.serviceRougeResourceImpl: rejected returning 504
+ERROR [2021-03-23 06:58:08,490] io.dropwizard.serviceRougeResourceImpl: rejected returning 504
+ERROR [2021-03-23 06:58:11,532] io.dropwizard.serviceRougeResourceImpl: rejected returning 504
+ERROR [2021-03-23 06:58:16,602] io.dropwizard.serviceRougeResourceImpl: rejected returning 504
+ERROR [2021-03-23 06:58:23,530] io.dropwizard.serviceRougeResourceImpl: rejected returning 504
+ERROR [2021-03-23 06:58:34,099] io.dropwizard.serviceRougeResourceImpl: rejected returning 504

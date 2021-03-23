@@ -98,7 +98,10 @@ public class BackendAPICall {
         this.responseMessage=response.body();
 
         System.out.println(response.body());
-        logger.info("API Call responded with "+statusCode);
+        if(statusCode != 200)
+            logger.warn("API Call responded with "+statusCode);
+        else
+            logger.warn("API Call responded with "+statusCode);
         System.out.println(statusCode);
         return statusCode;
     }

@@ -1208,3 +1208,56 @@ Caused by: java.lang.NullPointerException: null
 [2021-03-23T11:22:08.008Z] [com.walrus.serviceundererred.configuartion.ExponentialBackoff] [clientInboundChannel-7] [90] [INFO ] terminating retries
 [2021-03-23T11:22:08.008Z] [com.walrus.serviceundererred.configuartion.BackendAPICall] [clientInboundChannel-7] [73] [INFO ] message generated
 [2021-03-23T11:22:28.028Z] [org.springframework.web.socket.config.WebSocketMessageBrokerStats] [MessageBroker-4] [126] [INFO ] WebSocketSession[1 current WS(1)-HttpStream(0)-HttpPoll(0), 1 total, 0 closed abnormally (0 connect failure, 0 send limit, 0 transport error)], stompSubProtocol[processed CONNECT(1)-CONNECTED(1)-DISCONNECT(0)], stompBrokerRelay[null], inboundChannel[pool size = 9, active threads = 0, queued tasks = 0, completed tasks = 9], outboundChannel[pool size = 6, active threads = 0, queued tasks = 0, completed tasks = 6], sockJsScheduler[pool size = 8, active threads = 1, queued tasks = 2, completed tasks = 10]
+[2021-03-23T11:52:28.028Z] [org.springframework.web.socket.config.WebSocketMessageBrokerStats] [MessageBroker-7] [126] [INFO ] WebSocketSession[1 current WS(1)-HttpStream(0)-HttpPoll(0), 1 total, 0 closed abnormally (0 connect failure, 0 send limit, 0 transport error)], stompSubProtocol[processed CONNECT(1)-CONNECTED(1)-DISCONNECT(0)], stompBrokerRelay[null], inboundChannel[pool size = 0, active threads = 0, queued tasks = 0, completed tasks = 9], outboundChannel[pool size = 0, active threads = 0, queued tasks = 0, completed tasks = 6], sockJsScheduler[pool size = 8, active threads = 1, queued tasks = 2, completed tasks = 443]
+[2021-03-23T12:22:28.028Z] [org.springframework.web.socket.config.WebSocketMessageBrokerStats] [MessageBroker-6] [126] [INFO ] WebSocketSession[1 current WS(1)-HttpStream(0)-HttpPoll(0), 1 total, 0 closed abnormally (0 connect failure, 0 send limit, 0 transport error)], stompSubProtocol[processed CONNECT(1)-CONNECTED(1)-DISCONNECT(0)], stompBrokerRelay[null], inboundChannel[pool size = 0, active threads = 0, queued tasks = 0, completed tasks = 9], outboundChannel[pool size = 0, active threads = 0, queued tasks = 0, completed tasks = 6], sockJsScheduler[pool size = 8, active threads = 1, queued tasks = 2, completed tasks = 876]
+[2021-03-23T12:27:29.029Z] [com.walrus.serviceundererred.ServiceundererredApplication] [main] [14] [INFO ] Starting Server
+[2021-03-23T12:27:30.030Z] [org.springframework.boot.StartupInfoLogger] [main] [55] [INFO ] Starting ServiceundererredApplication using Java 13.0.1 on Shithanshu with PID 22840 (C:\Users\SHITH\Desktop\Project\java\backoff_microservices\serviceundererred\target\classes started by SHITH in C:\Users\SHITH\Desktop\Project\java\backoff_microservices\serviceundererred)
+[2021-03-23T12:27:30.030Z] [org.springframework.boot.SpringApplication] [main] [662] [INFO ] No active profile set, falling back to default profiles: default
+[2021-03-23T12:27:32.032Z] [org.springframework.boot.web.embedded.tomcat.TomcatWebServer] [main] [108] [INFO ] Tomcat initialized with port(s): 8090 (http)
+[2021-03-23T12:27:32.032Z] [org.apache.juli.logging.DirectJDKLog] [main] [173] [INFO ] Initializing ProtocolHandler ["http-nio-8090"]
+[2021-03-23T12:27:32.032Z] [org.apache.juli.logging.DirectJDKLog] [main] [173] [INFO ] Starting service [Tomcat]
+[2021-03-23T12:27:32.032Z] [org.apache.juli.logging.DirectJDKLog] [main] [173] [INFO ] Starting Servlet engine: [Apache Tomcat/9.0.44]
+[2021-03-23T12:27:32.032Z] [org.apache.juli.logging.DirectJDKLog] [main] [173] [INFO ] Initializing Spring embedded WebApplicationContext
+[2021-03-23T12:27:32.032Z] [org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext] [main] [289] [INFO ] Root WebApplicationContext: initialization completed in 2425 ms
+[2021-03-23T12:27:32.032Z] [org.springframework.scheduling.concurrent.ExecutorConfigurationSupport] [main] [181] [INFO ] Initializing ExecutorService 'clientInboundChannelExecutor'
+[2021-03-23T12:27:32.032Z] [org.springframework.scheduling.concurrent.ExecutorConfigurationSupport] [main] [181] [INFO ] Initializing ExecutorService 'clientOutboundChannelExecutor'
+[2021-03-23T12:27:32.032Z] [org.springframework.scheduling.concurrent.ExecutorConfigurationSupport] [main] [181] [INFO ] Initializing ExecutorService 'brokerChannelExecutor'
+[2021-03-23T12:27:32.032Z] [org.springframework.scheduling.concurrent.ExecutorConfigurationSupport] [main] [181] [INFO ] Initializing ExecutorService 'messageBrokerTaskScheduler'
+[2021-03-23T12:27:33.033Z] [org.springframework.boot.autoconfigure.web.servlet.WelcomePageHandlerMapping] [main] [53] [INFO ] Adding welcome page: class path resource [static/index.html]
+[2021-03-23T12:27:33.033Z] [org.apache.juli.logging.DirectJDKLog] [main] [173] [INFO ] Starting ProtocolHandler ["http-nio-8090"]
+[2021-03-23T12:27:34.034Z] [org.springframework.boot.web.embedded.tomcat.TomcatWebServer] [main] [220] [INFO ] Tomcat started on port(s): 8090 (http) with context path ''
+[2021-03-23T12:27:34.034Z] [org.springframework.core.log.CompositeLog] [main] [137] [INFO ] Starting...
+[2021-03-23T12:27:34.034Z] [org.springframework.core.log.CompositeLog] [main] [137] [INFO ] BrokerAvailabilityEvent[available=true, SimpleBrokerMessageHandler [org.springframework.messaging.simp.broker.DefaultSubscriptionRegistry@52b3bf03]]
+[2021-03-23T12:27:34.034Z] [org.springframework.core.log.CompositeLog] [main] [137] [INFO ] Started.
+[2021-03-23T12:27:34.034Z] [org.springframework.boot.StartupInfoLogger] [main] [61] [INFO ] Started ServiceundererredApplication in 4.79 seconds (JVM running for 5.577)
+[2021-03-23T12:27:35.035Z] [org.apache.juli.logging.DirectJDKLog] [http-nio-8090-exec-1] [173] [INFO ] Initializing Spring DispatcherServlet 'dispatcherServlet'
+[2021-03-23T12:27:35.035Z] [org.springframework.web.servlet.FrameworkServlet] [http-nio-8090-exec-1] [525] [INFO ] Initializing Servlet 'dispatcherServlet'
+[2021-03-23T12:27:35.035Z] [org.springframework.web.servlet.FrameworkServlet] [http-nio-8090-exec-1] [547] [INFO ] Completed initialization in 2 ms
+[2021-03-23T12:28:02.002Z] [com.walrus.serviceundererred.api.RequestResponse] [clientInboundChannel-7] [24] [INFO ] Recieved request to start API Call
+[2021-03-23T12:28:03.003Z] [com.walrus.serviceundererred.configuartion.BackendAPICall] [clientInboundChannel-7] [102] [WARN ] API Call responded with 202
+[2021-03-23T12:28:03.003Z] [com.walrus.serviceundererred.configuartion.ExponentialBackoff] [clientInboundChannel-7] [90] [INFO ] terminating retries
+[2021-03-23T12:28:03.003Z] [com.walrus.serviceundererred.configuartion.BackendAPICall] [clientInboundChannel-7] [73] [INFO ] message generated
+[2021-03-23T12:28:06.006Z] [com.walrus.serviceundererred.api.RequestResponse] [clientInboundChannel-10] [24] [INFO ] Recieved request to start API Call
+[2021-03-23T12:28:08.008Z] [com.walrus.serviceundererred.configuartion.BackendAPICall] [clientInboundChannel-10] [102] [WARN ] API Call responded with 504
+[2021-03-23T12:28:08.008Z] [com.walrus.serviceundererred.configuartion.BackendAPICall] [clientInboundChannel-10] [66] [INFO ] Retrying
+[2021-03-23T12:28:08.008Z] [com.walrus.serviceundererred.configuartion.ExponentialBackoff] [clientInboundChannel-10] [73] [INFO ] waiting for 1000
+[2021-03-23T12:28:09.009Z] [com.walrus.serviceundererred.configuartion.ExponentialBackoff] [clientInboundChannel-10] [65] [INFO ] new time to wait 2998
+[2021-03-23T12:28:11.011Z] [com.walrus.serviceundererred.configuartion.BackendAPICall] [clientInboundChannel-10] [102] [WARN ] API Call responded with 504
+[2021-03-23T12:28:11.011Z] [com.walrus.serviceundererred.configuartion.BackendAPICall] [clientInboundChannel-10] [66] [INFO ] Retrying
+[2021-03-23T12:28:11.011Z] [com.walrus.serviceundererred.configuartion.ExponentialBackoff] [clientInboundChannel-10] [73] [INFO ] waiting for 2998
+[2021-03-23T12:28:14.014Z] [com.walrus.serviceundererred.configuartion.ExponentialBackoff] [clientInboundChannel-10] [65] [INFO ] new time to wait 4897
+[2021-03-23T12:28:16.016Z] [com.walrus.serviceundererred.configuartion.BackendAPICall] [clientInboundChannel-10] [102] [WARN ] API Call responded with 504
+[2021-03-23T12:28:16.016Z] [com.walrus.serviceundererred.configuartion.BackendAPICall] [clientInboundChannel-10] [66] [INFO ] Retrying
+[2021-03-23T12:28:16.016Z] [com.walrus.serviceundererred.configuartion.ExponentialBackoff] [clientInboundChannel-10] [73] [INFO ] waiting for 4897
+[2021-03-23T12:28:21.021Z] [com.walrus.serviceundererred.configuartion.ExponentialBackoff] [clientInboundChannel-10] [65] [INFO ] new time to wait 8538
+[2021-03-23T12:28:23.023Z] [com.walrus.serviceundererred.configuartion.BackendAPICall] [clientInboundChannel-10] [102] [WARN ] API Call responded with 504
+[2021-03-23T12:28:23.023Z] [com.walrus.serviceundererred.configuartion.BackendAPICall] [clientInboundChannel-10] [66] [INFO ] Retrying
+[2021-03-23T12:28:23.023Z] [com.walrus.serviceundererred.configuartion.ExponentialBackoff] [clientInboundChannel-10] [73] [INFO ] waiting for 8538
+[2021-03-23T12:28:32.032Z] [com.walrus.serviceundererred.configuartion.ExponentialBackoff] [clientInboundChannel-10] [65] [INFO ] new time to wait 16657
+[2021-03-23T12:28:33.033Z] [org.springframework.web.socket.config.WebSocketMessageBrokerStats] [MessageBroker-8] [126] [INFO ] WebSocketSession[1 current WS(1)-HttpStream(0)-HttpPoll(0), 1 total, 0 closed abnormally (0 connect failure, 0 send limit, 0 transport error)], stompSubProtocol[processed CONNECT(1)-CONNECTED(1)-DISCONNECT(0)], stompBrokerRelay[null], inboundChannel[pool size = 12, active threads = 1, queued tasks = 0, completed tasks = 11], outboundChannel[pool size = 6, active threads = 0, queued tasks = 0, completed tasks = 6], sockJsScheduler[pool size = 8, active threads = 1, queued tasks = 2, completed tasks = 11]
+[2021-03-23T12:28:34.034Z] [com.walrus.serviceundererred.configuartion.BackendAPICall] [clientInboundChannel-10] [102] [WARN ] API Call responded with 504
+[2021-03-23T12:28:34.034Z] [com.walrus.serviceundererred.configuartion.BackendAPICall] [clientInboundChannel-10] [66] [INFO ] Retrying
+[2021-03-23T12:28:34.034Z] [com.walrus.serviceundererred.configuartion.ExponentialBackoff] [clientInboundChannel-10] [58] [INFO ] API Call Failed
+[2021-03-23T12:28:34.034Z] [com.walrus.serviceundererred.configuartion.ExponentialBackoff] [clientInboundChannel-10] [73] [INFO ] waiting for 16657
+[2021-03-23T12:28:50.050Z] [com.walrus.serviceundererred.configuartion.ExponentialBackoff] [clientInboundChannel-10] [65] [INFO ] new time to wait 32977
+[2021-03-23T12:28:50.050Z] [com.walrus.serviceundererred.configuartion.BackendAPICall] [clientInboundChannel-10] [79] [WARN ] exceeded retried stopping backoff
