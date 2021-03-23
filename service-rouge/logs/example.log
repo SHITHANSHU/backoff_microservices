@@ -81,3 +81,33 @@ ERROR [2021-03-23 04:02:42,403] io.dropwizard.serviceRougeResourceImpl: rejected
 ERROR [2021-03-23 04:02:46,657] io.dropwizard.serviceRougeResourceImpl: rejected returning 504
 ERROR [2021-03-23 04:02:51,831] io.dropwizard.serviceRougeResourceImpl: rejected returning 504
 ERROR [2021-03-23 04:02:57,357] io.dropwizard.serviceRougeResourceImpl: rejected returning 504
+INFO  [2021-03-23 04:42:55,935] io.dropwizard.server.DefaultServerFactory: Registering jersey handler with root path prefix: /
+INFO  [2021-03-23 04:42:55,937] io.dropwizard.server.DefaultServerFactory: Registering admin handler with root path prefix: /
+INFO  [2021-03-23 04:42:55,944] io.dropwizard.serviceRougeResourceImpl: server started
+INFO  [2021-03-23 04:42:56,348] io.dropwizard.server.ServerFactory: Starting Sample Service Application
+INFO  [2021-03-23 04:42:56,490] org.eclipse.jetty.setuid.SetUIDListener: Opened application@3104f7bd{HTTP/1.1,[http/1.1]}{0.0.0.0:8085}
+INFO  [2021-03-23 04:42:56,490] org.eclipse.jetty.setuid.SetUIDListener: Opened admin@67c277a0{HTTP/1.1,[http/1.1]}{0.0.0.0:8081}
+INFO  [2021-03-23 04:42:56,493] org.eclipse.jetty.server.Server: jetty-9.4.19.v20190610; built: 2019-06-10T16:30:51.723Z; git: afcf563148970e98786327af5e07c261fda175d3; jvm 11.0.5+10-b520.30
+INFO  [2021-03-23 04:42:57,089] io.dropwizard.jersey.DropwizardResourceConfig: The following paths were found for the configured resources:
+
+    GET     /service-walrus/hello (io.dropwizard.serviceRougeResourceImpl)
+
+INFO  [2021-03-23 04:42:57,091] org.eclipse.jetty.server.handler.ContextHandler: Started i.d.j.MutableServletContextHandler@7af1cd63{/,null,AVAILABLE}
+INFO  [2021-03-23 04:42:57,097] io.dropwizard.setup.AdminEnvironment: tasks = 
+
+    POST    /tasks/log-level (io.dropwizard.servlets.tasks.LogConfigurationTask)
+    POST    /tasks/gc (io.dropwizard.servlets.tasks.GarbageCollectionTask)
+
+WARN  [2021-03-23 04:42:57,097] io.dropwizard.setup.AdminEnvironment: 
+!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+!    THIS APPLICATION HAS NO HEALTHCHECKS. THIS MEANS YOU WILL NEVER KNOW      !
+!     IF IT DIES IN PRODUCTION, WHICH MEANS YOU WILL NEVER KNOW IF YOU'RE      !
+!    LETTING YOUR USERS DOWN. YOU SHOULD ADD A HEALTHCHECK FOR EACH OF YOUR    !
+!         APPLICATION'S DEPENDENCIES WHICH FULLY (BUT LIGHTLY) TESTS IT.       !
+!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+INFO  [2021-03-23 04:42:57,107] org.eclipse.jetty.server.handler.ContextHandler: Started i.d.j.MutableServletContextHandler@291120f4{/,null,AVAILABLE}
+INFO  [2021-03-23 04:42:57,142] org.eclipse.jetty.server.AbstractConnector: Started application@3104f7bd{HTTP/1.1,[http/1.1]}{0.0.0.0:8085}
+INFO  [2021-03-23 04:42:57,159] org.eclipse.jetty.server.AbstractConnector: Started admin@67c277a0{HTTP/1.1,[http/1.1]}{0.0.0.0:8081}
+INFO  [2021-03-23 04:42:57,159] org.eclipse.jetty.server.Server: Started @4038ms
